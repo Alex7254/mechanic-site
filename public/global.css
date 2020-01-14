@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,900&display=swap");
+
+/* Global Styles */
+:root {
+  --primary-color: #204f6e;
+  --dark-color: #333333;
+  --light-text: #808080;
+  --red-color: #ef233c;
+  --success-color: #28a745;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Used for red headers */
+.red-header {
+  color: var(--red-color);
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  font-size: 2rem;
+}
+
+/* Display flex nowrap */
+.d-flex-nw {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/* Light grey text */
+.light-text {
+  color: var(--light-text);
+}
+
+.diagonal-button {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 1.5px;
+  background: rgb(227, 45, 39);
+  background: linear-gradient(90deg, rgba(227, 45, 39, 1) 0%, rgba(177, 18, 23, 1) 100%);
+  border: none;
+  padding: 0.5rem;
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  border-radius: 3px;
+  width: 10rem;
+}
+
+.diagonal-button:hover {
+  -webkit-box-shadow: 10px 10px 15px -5px rgba(196, 45, 65, 0.45);
+  -moz-box-shadow: 10px 10px 15px -5px rgba(196, 45, 65, 0.45);
+  box-shadow: 10px 10px 15px -5px rgba(196, 45, 65, 0.45);
+  transition: all 0.3s ease-in-out;
+}
+
+.button-slanted-content {
+  -ms-transform: skewX(20deg);
+  -webkit-transform: skewX(20deg);
+  transform: skewX(20deg);
+  display: inline-block;
+}

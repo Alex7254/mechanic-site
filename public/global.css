@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,400,700,900&display=swap");
 
 /* Global Styles */
 :root {
-  --primary-color: #204f6e;
-  --dark-color: #333333;
+  --dark-blue: #011936;
+  --blue: #022d61;
   --light-text: #808080;
   --red-color: #ef233c;
   --success-color: #28a745;
@@ -31,6 +31,14 @@ a {
 ul {
   list-style: none;
 }
+hr {
+  width: 95vw;
+  display: block;
+  margin: 12rem auto 0;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.062), rgba(0, 0, 0, 0));
+}
 
 /* Used for red headers */
 .red-header {
@@ -49,12 +57,15 @@ ul {
 /* Light grey text */
 .light-text {
   color: var(--light-text);
+  opacity: 0.7;
+  font-weight: 200;
 }
 
 .diagonal-button {
   color: white;
   font-family: "Raleway", sans-serif;
   font-size: 1.2rem;
+  font-weight: 200;
   text-align: center;
   cursor: pointer;
   letter-spacing: 1.5px;
@@ -70,9 +81,9 @@ ul {
 }
 
 .diagonal-button:hover {
-  -webkit-box-shadow: 10px 10px 15px -5px rgba(196, 45, 65, 0.45);
-  -moz-box-shadow: 10px 10px 15px -5px rgba(196, 45, 65, 0.45);
-  box-shadow: 10px 10px 15px -5px rgba(196, 45, 65, 0.45);
+  -webkit-box-shadow: 10px 10px 15px -5px rgba(196, 45, 65, 0.47);
+  -moz-box-shadow: 10px 10px 15px -5px rgba(196, 45, 65, 0.47);
+  box-shadow: 10px 10px 15px -5px rgba(196, 45, 65, 0.4);
   transition: all 0.3s ease-in-out;
 }
 

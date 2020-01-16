@@ -72,7 +72,7 @@
           <br />
           Mechanic Shop
         </h1>
-        <p class="light-text">
+        <p class="light-text half-opacity">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores
           ad ratione repudiandae, dolorem officia sunt voluptatibus optio
           adipisci dolore harum culpa. Architecto, provident explicabo! Iusto,

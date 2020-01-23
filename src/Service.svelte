@@ -51,6 +51,10 @@
   p {
     font-size: 0.8rem;
     width: 75%;
+    /* background-color: red; */
+    height: 75%;
+    padding: 0.9rem 0;
+    overflow: hidden;
     color: white;
     opacity: 0.7;
   }

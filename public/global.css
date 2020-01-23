@@ -40,6 +40,15 @@ hr {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.062), rgba(0, 0, 0, 0));
 }
 
+/* blue gradient */
+.blue-gradient {
+  background: rgb(2, 45, 97);
+  background: -moz-linear-gradient(90deg, rgba(2, 45, 97, 1) 0%, rgba(1, 25, 54, 1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(2, 45, 97, 1) 0%, rgba(1, 25, 54, 1) 100%);
+  background: linear-gradient(90deg, rgba(2, 45, 97, 1) 0%, rgba(1, 25, 54, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#022d61",endColorstr="#011936",GradientType=1);
+}
+
 /* Used for red headers */
 .red-header {
   color: var(--red-color);

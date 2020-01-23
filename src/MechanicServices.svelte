@@ -19,6 +19,8 @@ section {
     padding: 2rem 8%;
     grid-gap: 3rem;
   }
+
+  /* Add with to button to fit content on this section of website */
   .diagonal-button {
     width:12rem;
     margin: 4rem 0;

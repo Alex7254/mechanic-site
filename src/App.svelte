@@ -6,6 +6,7 @@
   import ContactUs from "./ContactUs.svelte";
   import Reviews from "./Reviews.svelte";
   import Footer from "./Footer.svelte";
+  import Nav from "./Navigation.svelte";
 
   export let ready;
 </script>
@@ -22,6 +23,7 @@
 
   </script>
 </svelte:head>
+<Nav />
 <LandingArea />
 <MechanicServices />
 <hr />

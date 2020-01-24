@@ -36,7 +36,7 @@
 
 <PistonHeader title="Contact Us" />
 
-<section>
+<section id="contact-us">
   <div class="blue-gradient">
     <p>
       <span>Phone:</span>

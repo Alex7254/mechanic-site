@@ -1,5 +1,5 @@
 <script>
-export let title = "Header Title";
+  export let title = "Header Title";
 </script>
 
 <style>
@@ -16,5 +16,5 @@ export let title = "Header Title";
 </style>
 
 <div class="piston-header">
-    <h1 class="red-header">{title}</h1>
-  </div>
+  <h1 class="red-header">{title}</h1>
+</div>

@@ -6,7 +6,7 @@
 
 <style>
   .service {
-    background-color: #022d61;
+    background-color: #034391;
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
@@ -38,7 +38,7 @@
     height: 100%;
     margin: auto;
     color: white;
-    background-color: #011936;
+    background-color: #033675;
     padding: 2rem;
   }
 

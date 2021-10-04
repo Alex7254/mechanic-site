@@ -11,16 +11,11 @@
   export let ready;
 </script>
 
-<style>
-
-</style>
-
 <svelte:head>
   <script
     defer
     async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjIqKb_5XW208qw4oipWaGrXf3j8kroMI&callback=initMap">
-
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhnRVZfDUED8k2cFQjT8FluYWed5qrzFo&callback=initMap">
   </script>
 </svelte:head>
 <Nav />
@@ -37,3 +32,5 @@
 <Reviews />
 <hr />
 <Footer />
+
+<style></style>

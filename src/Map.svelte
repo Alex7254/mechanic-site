@@ -1,26 +1,25 @@
 <script>
+  let container;
+  let map;
+  let zoom = 8;
+  let center = { lat: -34.397, lng: 150.644 };
 
-	let container;
-	let map;
-	let zoom = 8;
-    let center = {lat: -34.397, lng: 150.644};
-    
-    import { onMount } from 'svelte';
-    
-	onMount(async () => {
-		map = new google.maps.Map(container, {
-            zoom,
-			center,
-		});
-	});
+  import { onMount } from "svelte";
+
+  onMount(async () => {
+    map = new google.maps.Map(container, {
+      zoom,
+      center,
+    });
+  });
 </script>
 
-<style>
-.full-screen {
-		width: 50vw;
-		height: 22rem;
-    border-radius: 0 10px 10px 0;
-}
-</style>
+<div class="full-screen" bind:this={container} />
 
-<div class="full-screen" bind:this={container}></div>
+<style>
+  .full-screen {
+    width: 50vw;
+    height: 22rem;
+    border-radius: 0 10px 10px 0;
+  }
+</style>

@@ -1,6 +1,30 @@
 <script>
-
 </script>
+
+<div class="d-flex-nw">
+  <!-- Container holds text content and image -->
+  <section class="diagonal-container">
+    <!-- Holds diagonal conainer and text -->
+    <header>
+      <div class="header__bg" />
+      <div class="header-content">
+        <h1 class="red-header">Easy Tune Up Mechanic Shop</h1>
+        <p class="light-text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores
+          ad ratione repudiandae, dolorem officia sunt voluptatibus optio
+          adipisci dolore harum culpa. Architecto, provident explicabo! Iusto,
+          esse, rem pariatur quibusdam ab quidem molestias nihil quo commodi
+          provident vel temporibus. Ex quia est placeat quasi deleniti. In.
+        </p>
+        <div class="diagonal-button">
+          <span class="button-slanted-content">Contact Us</span>
+        </div>
+      </div>
+    </header>
+  </section>
+  <!-- Used for image -->
+  <div class="main-bg-img" />
+</div>
 
 <style>
   .main-bg-img {
@@ -11,11 +35,11 @@
     -o-background-size: cover;
     background-size: cover;
     height: 100vh;
-    width: 56vw;
+    width: 100%;
   }
 
   .diagonal-container {
-    width: 55vw;
+    width: 56vw;
     background-color: plum;
     height: 100vh;
   }
@@ -43,11 +67,11 @@
     transform-origin: top left;
   }
 
-  header .header-content {
+  .header-content {
     position: relative;
-    /* background-color: bisque; */
+    background-color: bisque;
     width: 35vw;
-    padding: 1rem 1rem 1rem 2rem;
+    padding: 1rem;
   }
 
   .header-content h1 {
@@ -60,30 +84,3 @@
     margin-top: 2rem;
   }
 </style>
-
-<div class="d-flex-nw">
-  <!-- Container holds text content and image -->
-  <section class="diagonal-container">
-    <!-- Holds diagonal conainer and text -->
-    <header>
-      <div class="header__bg" />
-      <div class="header-content">
-        <h1 class="red-header">
-          Easy Tune Up Mechanic Shop
-        </h1>
-        <p class="light-text">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores
-          ad ratione repudiandae, dolorem officia sunt voluptatibus optio
-          adipisci dolore harum culpa. Architecto, provident explicabo! Iusto,
-          esse, rem pariatur quibusdam ab quidem molestias nihil quo commodi
-          provident vel temporibus. Ex quia est placeat quasi deleniti. In.
-        </p>
-        <div class="diagonal-button">
-          <span class="button-slanted-content">Contact Us</span>
-        </div>
-      </div>
-    </header>
-  </section>
-  <!-- Used for image -->
-  <div class="main-bg-img" />
-</div>

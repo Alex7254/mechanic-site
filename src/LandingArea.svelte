@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="d-flex-nw">
+<section class="d-flex-nw">
   <!-- Holds diagonal conainer and text -->
   <div class="hero">
     <!-- White diagonal container -->
@@ -22,7 +22,7 @@
   </div>
   <!-- Used for image of garage-->
   <div class="main-bg-img" />
-</div>
+</section>
 
 <style>
   .main-bg-img {

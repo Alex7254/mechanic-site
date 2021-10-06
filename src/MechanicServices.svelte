@@ -9,7 +9,7 @@
     justify-content: center;
     flex-direction: column;
 }
-  .services-grid {
+  .services__grid {
     /* background-color: silver; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -27,7 +27,7 @@
 
 <section class="services d-flex-nw">
   <PistonHeader title="How We Can Help" />
-  <div class="services-grid">
+  <div class="services__grid">
     <Service serviceTitle="CEL Diagnosis" serviceIcon="/assets/engine.svg" />
     <Service serviceTitle="Smog Check" serviceIcon="assets/exhaust.svg" />
     <Service serviceTitle="Brake Repairs" serviceIcone="assets/brakes.svg" />

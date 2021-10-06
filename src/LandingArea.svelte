@@ -69,7 +69,6 @@
       <div class="header-content">
         <h1 class="red-header">
           Easy Tune Up
-          <br />
           Mechanic Shop
         </h1>
         <p class="light-text">

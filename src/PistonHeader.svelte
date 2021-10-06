@@ -12,6 +12,7 @@
     -o-background-size: contain;
     background-size: contain;
     margin: 15rem 0 7rem 0;
+    cursor: default;
   }
 </style>
 

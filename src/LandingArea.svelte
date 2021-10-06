@@ -57,6 +57,7 @@
 
   .header-content p {
     margin-bottom: 6rem;
+    margin-top: 2rem;
   }
 </style>
 
@@ -68,8 +69,7 @@
       <div class="header__bg" />
       <div class="header-content">
         <h1 class="red-header">
-          Easy Tune Up
-          Mechanic Shop
+          Easy Tune Up Mechanic Shop
         </h1>
         <p class="light-text">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores

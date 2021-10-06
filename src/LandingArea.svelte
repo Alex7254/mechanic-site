@@ -2,26 +2,23 @@
 </script>
 
 <div class="d-flex-nw">
-  <!-- Container holds text content and image -->
-  <section class="diagonal-container">
-    <!-- Holds diagonal conainer and text -->
-    <header>
-      <div class="header__bg" />
-      <div class="header-content">
-        <h1 class="red-header">Easy Tune Up Mechanic Shop</h1>
-        <p class="light-text">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores
-          ad ratione repudiandae, dolorem officia sunt voluptatibus optio
-          adipisci dolore harum culpa. Architecto, provident explicabo! Iusto,
-          esse, rem pariatur quibusdam ab quidem molestias nihil quo commodi
-          provident vel temporibus. Ex quia est placeat quasi deleniti. In.
-        </p>
-        <div class="diagonal-button">
-          <span class="button-slanted-content">Contact Us</span>
-        </div>
+  <!-- Holds diagonal conainer and text -->
+  <header>
+    <div class="header__bg" />
+    <div class="header-content">
+      <h1 class="red-header">Easy Tune Up Mechanic Shop</h1>
+      <p class="light-text">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores ad
+        ratione repudiandae, dolorem officia sunt voluptatibus optio adipisci
+        dolore harum culpa. Architecto, provident explicabo! Iusto, esse, rem
+        pariatur quibusdam ab quidem molestias nihil quo commodi provident vel
+        temporibus. Ex quia est placeat quasi deleniti. In.
+      </p>
+      <div class="diagonal-button">
+        <span class="button-slanted-content">Contact Us</span>
       </div>
-    </header>
-  </section>
+    </div>
+  </header>
   <!-- Used for image -->
   <div class="main-bg-img" />
 </div>
@@ -34,21 +31,13 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
     width: 100%;
   }
 
-  .diagonal-container {
-    width: 56vw;
-    background-color: plum;
-    height: 100vh;
-  }
-
   header {
-    /* position: relative; */
     height: 100vh;
+    width: 100%;
     overflow: hidden;
-    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,7 +58,6 @@
 
   .header-content {
     position: relative;
-    background-color: bisque;
     width: 35vw;
     padding: 1rem;
   }

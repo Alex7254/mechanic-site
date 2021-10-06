@@ -1,6 +1,36 @@
 <script>
-
 </script>
+
+<nav role="navigation">
+  <div id="menuToggle">
+    <input type="checkbox" />
+
+    <span />
+    <span />
+    <span />
+
+    <ul id="menu" class="blue-gradient">
+      <a href="/">
+        <li>Home</li>
+      </a>
+      <a href="/">
+        <li>Services</li>
+      </a>
+      <a href="/">
+        <li>What We Service</li>
+      </a>
+      <a href="/">
+        <li>About</li>
+      </a>
+      <a href="/">
+        <li>Contact</li>
+      </a>
+      <a href="/">
+        <li>Reviews</li>
+      </a>
+    </ul>
+  </div>
+</nav>
 
 <style>
   nav {
@@ -108,18 +138,15 @@
   #menu {
     position: absolute;
     width: 20rem;
-    height: 60rem;
-    margin: -100px 0 0 -50px;
+    height: 100vh;
+    margin: -77px 0 0 -50px;
     padding: 3rem;
     padding-top: 15rem;
     /* background: #011936; */
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
-    /* to stop flickering of text in safari */
-
     transform-origin: 0% 0%;
     transform: translate(-100%, 0);
-
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
 
@@ -131,59 +158,7 @@
     transition: 0.3s color ease-in-out;
   }
 
-  /*
- * And let's slide it in from the left
- */
   #menuToggle input:checked ~ ul {
     transform: none;
   }
 </style>
-
-<!--    Made by Erik Terwan    -->
-<!--   24th of November 2015   -->
-<!--        MIT License        -->
-<nav role="navigation">
-  <div id="menuToggle">
-    <!--
-    A fake / hidden checkbox is used as click reciever,
-    so you can use the :checked selector on it.
-    -->
-    <input type="checkbox" />
-
-    <!--
-    Some spans to act as a hamburger.
-    
-    They are acting like a real hamburger,
-    not that McDonalds stuff.
-    -->
-    <span />
-    <span />
-    <span />
-
-    <!--
-    Too bad the menu has to be inside of the button
-    but hey, it's pure CSS magic.
-    -->
-    <ul id="menu" class="blue-gradient">
-      <a href="/">
-        <li>Home</li>
-      </a>
-      <a href="/">
-        <li>Services</li>
-      </a>
-      <a href="/">
-        <li>What We Service</li>
-      </a>
-      <a href="/">
-        <li>About</li>
-      </a>
-      <a href="/">
-        <li>Contact</li>
-      </a>
-      <a href="/">
-        <li>Reviews</li>
-      </a>
-      <!-- <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a> -->
-    </ul>
-  </div>
-</nav>

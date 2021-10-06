@@ -43,9 +43,9 @@ hr {
 /* blue gradient */
 .blue-gradient {
   background: rgb(2, 45, 97);
-  background: -moz-linear-gradient(60deg, rgba(2, 45, 97, 1) 0%, rgba(1, 25, 54, 1) 100%);
-  background: -webkit-linear-gradient(60deg, rgba(2, 45, 97, 1) 0%, rgba(1, 25, 54, 1) 100%);
-  background: linear-gradient(60deg, rgba(2, 45, 97, 1) 0%, rgba(1, 25, 54, 1) 100%);
+  background: -moz-linear-gradient(10deg, #034391 0%, #033675 100%);
+  background: -webkit-linear-gradient(10deg, #034391 0%, #033675 100%);
+  background: linear-gradient(10deg, #034391 0%, #033675 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#022d61",endColorstr="#011936",GradientType=1);
 }
 

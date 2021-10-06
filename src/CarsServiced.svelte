@@ -22,7 +22,7 @@
 
   img:hover {
     border-bottom: solid 2px red;
-    transition: 1s all ease-in-out;
+    transition: all 0.6s ease-in-out;
   }
 
   #volkswagen-img {

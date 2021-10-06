@@ -4,11 +4,9 @@
 </script>
 
 <style>
-section {
-   display: flex;
+.services {
     align-items: center;
     justify-content: center;
-    flex-wrap: nowrap;
     flex-direction: column;
 }
   .services-grid {
@@ -27,7 +25,7 @@ section {
   }
 </style>
 
-<section>
+<section class="services d-flex-nw">
   <PistonHeader title="How We Can Help" />
   <div class="services-grid">
     <Service serviceTitle="CEL Diagnosis" serviceIcon="/assets/engine.svg" />

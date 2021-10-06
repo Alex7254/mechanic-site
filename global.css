@@ -38,7 +38,12 @@ hr {
   margin: 12rem auto 0;
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.062), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.062),
+    rgba(0, 0, 0, 0)
+  );
 }
 
 /* blue gradient */
@@ -49,7 +54,6 @@ hr {
   background: linear-gradient(10deg, #034391 0%, #033675 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#022d61",endColorstr="#011936",GradientType=1);
 }
-
 
 /* Used for red headers */
 .red-header {
@@ -81,7 +85,11 @@ hr {
   cursor: pointer;
   letter-spacing: 1.5px;
   background: rgb(227, 45, 39);
-  background: linear-gradient(90deg, rgba(227, 45, 39, 1) 0%, rgba(177, 18, 23, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(227, 45, 39, 1) 0%,
+    rgba(177, 18, 23, 1) 100%
+  );
   border: none;
   padding: 0.5rem;
   -ms-transform: skewX(-20deg);
@@ -89,13 +97,16 @@ hr {
   transform: skewX(-20deg);
   border-radius: 3px;
   width: 10rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .diagonal-button:hover {
   -webkit-box-shadow: 10px 10px 15px -5px rgba(196, 45, 65, 0.47);
   -moz-box-shadow: 10px 10px 15px -5px rgba(196, 45, 65, 0.47);
   box-shadow: 10px 10px 15px -5px rgba(196, 45, 65, 0.4);
-  transition: all 0.3s ease-in-out;
+  transform: scale(1.015) skewX(-20deg);
+  -ms-transform: scale(1.015) skewX(-20deg);
+  -webkit-transform: scale(1.015) skewX(-20deg);
 }
 
 .button-slanted-content {

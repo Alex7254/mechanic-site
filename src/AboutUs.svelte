@@ -1,10 +1,10 @@
 <script>
 </script>
 
-<div class="blue-gradient about-container">
-  <div class="about-content">
-    <h1>About Us</h1>
-    <p>
+<section class="about-us blue-gradient d-flex-nw">
+  <div class="about-us__content">
+    <h1 class="about-us__content__title">About Us</h1>
+    <p class="about-us__content__text">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo sit non
       corporis optio quod possimus numquam voluptatem earum molestiae
       accusantium excepturi totam, aut incidunt veniam itaque distinctio aliquam
@@ -22,54 +22,46 @@
       <span class="button-slanted-content">Contact Us</span>
     </div>
   </div>
-  <div class="img-container">
-    <img
-      src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-      alt=""
-    />
-  </div>
-</div>
+  <img
+    class="about-us__img"
+    src="https://images.unsplash.com/photo-1543747255-94b72995ac74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    alt="mechanic bending over to look under car"
+  />
+</section>
 
 <style>
-  .about-container {
-    padding: 8%;
-    display: flex;
+  .about-us {
+    padding: 6rem 12rem;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: nowrap;
     flex-direction: row;
     cursor: default;
   }
 
-  .about-content {
+  .about-us__content {
     color: white;
-    /* background-color: green; */
     padding: 0 1rem;
     width: 35vw;
   }
 
-  h1 {
+  .about-us__img {
+    height: 24rem;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .about-us__content__title {
     font-weight: 900;
     letter-spacing: 1.5px;
     font-size: 2rem;
+    border-bottom: solid 3px var(--red);
+    width: auto;
+    display: inline;
   }
 
-  p {
-    font-size: 1rem;
-    line-height: 1.7rem;
-    font-weight: 200;
+  .about-us__content__text {
+    line-height: 1.5rem;
     letter-spacing: 0.5px;
-    display: block;
-    margin: 3rem 0;
-  }
-
-  .img-container {
-    width: 35vw;
-  }
-
-  img {
-    border-radius: 10px;
-    width: 100%;
-    height: auto;
+    margin: 2rem 0 5rem 0;
   }
 </style>

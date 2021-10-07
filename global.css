@@ -2,10 +2,10 @@
 
 /* Global Styles */
 :root {
-  --dark-blue: #011936;
-  --blue: #022d61;
+  --dark-blue: #033675;
+  --blue: #034391;
   --light-text: #747474;
-  --red-color: #ef233c;
+  --red: #ef233c;
   --success-color: #28a745;
 }
 
@@ -32,6 +32,12 @@ a {
 ul {
   list-style: none;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 hr {
   width: 95vw;
   display: block;
@@ -57,7 +63,7 @@ hr {
 
 /* Used for red headers */
 .red-header {
-  color: var(--red-color);
+  color: var(--red);
   font-weight: 900;
   letter-spacing: 1.5px;
   font-size: 2rem;

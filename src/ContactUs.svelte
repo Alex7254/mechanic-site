@@ -12,14 +12,16 @@
         <b>Phone:</b>
         (831)012-3456
       </p>
-      <p>
-        <b>Monday-Friday:</b>
-        9:30am-5:00pm
-      </p>
-      <p>
-        <b>Saturday:</b>
-        9:30am-3:00pm
-      </p>
+      <div class="contact-us__details__hours">
+        <p>
+          <b>Monday-Friday:</b>
+          9:30am-5:00pm
+        </p>
+        <p>
+          <b>Saturday:</b>
+          9:30am-3:00pm
+        </p>
+      </div>
       <p>
         <b>
           123 Union St

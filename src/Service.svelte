@@ -30,9 +30,9 @@
   }
 
   .service:hover {
-    -webkit-box-shadow: 10px 10px 15px -5px rgba(1, 25, 54, 0.47);
-    -moz-box-shadow: 10px 10px 15px -5px rgba(1, 25, 54, 0.47);
-    box-shadow: 10px 10px 15px -5px rgba(1, 25, 54, 0.47);
+    box-shadow: 0.625rem 0.625rem 0px 0px rgba(239, 35, 60, 1);
+    -webkit-box-shadow: 0.625rem 0.625rem 0px 0px rgba(239, 35, 60, 1);
+    -moz-box-shadow: 0.625rem 0.625rem 0px 0px rgba(239, 35, 60, 1);
     transform: scale(1.012);
   }
 

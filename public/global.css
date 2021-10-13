@@ -107,9 +107,9 @@ hr {
 }
 
 .diagonal-button:hover {
-  -webkit-box-shadow: 10px 10px 15px -5px rgba(196, 45, 65, 0.47);
-  -moz-box-shadow: 10px 10px 15px -5px rgba(196, 45, 65, 0.47);
-  box-shadow: 10px 10px 15px -5px rgba(196, 45, 65, 0.4);
+  box-shadow: 6px 7px 0px 0px rgba(3, 54, 117, 1);
+  -webkit-box-shadow: 6px 7px 0px 0px rgba(3, 54, 117, 1);
+  -moz-box-shadow: 6px 7px 0px 0px rgba(3, 54, 117, 1);
   transform: scale(1.015) skewX(-20deg);
   -ms-transform: scale(1.015) skewX(-20deg);
   -webkit-transform: scale(1.015) skewX(-20deg);

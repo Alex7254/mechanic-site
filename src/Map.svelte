@@ -14,12 +14,12 @@
   });
 </script>
 
-<div class="full-screen" bind:this={container} />
+<div class="map" bind:this={container} />
 
 <style>
-  .full-screen {
-    width: 50vw;
-    height: 22rem;
-    border-radius: 0 10px 10px 0;
+  .map {
+    width: 50%;
+    height: 25rem;
+    border-radius: 0 0.625rem 0.625rem 0;
   }
 </style>

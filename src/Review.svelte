@@ -8,7 +8,7 @@
   let isIndicatorActive = false;
   let style = {
     styleStarWidth: 18,
-    styleEmptyStarColor: "#808080",
+    styleEmptyStarColor: "#d4d4d4",
     styleFullStarColor: "#ffd219"
   };
 </script>
@@ -39,7 +39,7 @@
 </style>
 
   <div class="review blue-gradient">
-    <StarRating rating={rating} {style} isIndicatorActive: {isIndicatorActive} , />
+    <StarRating rating={rating} {style} {isIndicatorActive} />
     <p>
       {reviewParagraph}
     </p>

@@ -25,7 +25,7 @@
 <style>
   .review {
     cursor: default;
-    height: 20rem;
+    height: 24rem;
     width: 22rem;
     padding: 2rem;
     border-radius: 0.4rem;

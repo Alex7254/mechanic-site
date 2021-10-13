@@ -1,20 +1,28 @@
 <script>
   import StarRating from "svelte-stars-rating";
 
-  export let reviewerName = 'Persons Name';
-  export let reviewParagraph = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio veniamquasi iure doloremque enim dolore maxime omnis labore voluptate,reiciendis nesciunt! Labore itaque quod atque ipsam possimus dicta nihilpariatur. At odio vel accusamus accusantium?";
+  export let reviewerName = "Persons Name";
+  export let reviewParagraph =
+    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio veniamquasi iure doloremque enim dolore maxime omnis labore voluptate,reiciendis nesciunt! Labore itaque quod atque ipsam possimus dicta nihilpariatur. At odio vel accusamus accusantium?";
   export let rating = "3.5";
 
   let isIndicatorActive = false;
   let style = {
     styleStarWidth: 18,
     styleEmptyStarColor: "#d4d4d4",
-    styleFullStarColor: "#ffd219"
+    styleFullStarColor: "#ffd219",
   };
 </script>
 
-<style>
+<div class="review blue-gradient">
+  <StarRating {rating} {style} {isIndicatorActive} />
+  <p>
+    {reviewParagraph}
+  </p>
+  <h3>{reviewerName}</h3>
+</div>
 
+<style>
   .review {
     cursor: default;
     height: 20rem;
@@ -37,11 +45,3 @@
     letter-spacing: 0.7px;
   }
 </style>
-
-  <div class="review blue-gradient">
-    <StarRating rating={rating} {style} {isIndicatorActive} />
-    <p>
-      {reviewParagraph}
-    </p>
-    <h3>{reviewerName}</h3>
-  </div>

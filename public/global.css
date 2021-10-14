@@ -25,7 +25,6 @@ body {
 }
 
 a {
-  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -89,6 +88,7 @@ hr {
   font-weight: 200;
   text-align: center;
   cursor: pointer;
+  display: block;
   letter-spacing: 1.5px;
   background: rgb(227, 45, 39);
   background: linear-gradient(
@@ -119,5 +119,5 @@ hr {
   -ms-transform: skewX(20deg);
   -webkit-transform: skewX(20deg);
   transform: skewX(20deg);
-  display: inline-block;
+  display: block;
 }

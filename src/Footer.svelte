@@ -16,7 +16,7 @@
       <a href="/">Contact</a>
     </li>
     <li class="footer__nav__item designer-tag">
-      <p class="light-text">Designed by Me</p>
+      <p class="light-text">Designed by Alejandro Garcia</p>
     </li>
   </ul>
 </footer>

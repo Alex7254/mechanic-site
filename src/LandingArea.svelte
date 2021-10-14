@@ -15,9 +15,7 @@
         pariatur quibusdam ab quidem molestias nihil quo commodi provident vel
         temporibus. Ex quia est placeat quasi deleniti. In.
       </p>
-      <div class="diagonal-button">
-        <span class="button-slanted-content">Contact Us</span>
-      </div>
+      <a class="diagonal-button" href="#contact-us"> <span class="button-slanted-content">Contact Us</span></a>
     </div>
   </div>
   <!-- Used for image of garage-->

@@ -10,24 +10,12 @@
     <span />
 
     <ul id="menu" class="blue-gradient">
-      <a href="/">
-        <li>Home</li>
-      </a>
-      <a href="/">
-        <li>Services</li>
-      </a>
-      <a href="/">
-        <li>What We Service</li>
-      </a>
-      <a href="/">
-        <li>About</li>
-      </a>
-      <a href="/">
-        <li>Contact</li>
-      </a>
-      <a href="/">
-        <li>Reviews</li>
-      </a>
+      <li><a href="/">Home</a></li>
+      <li><a href="/">Services</a></li>
+      <li><a href="/">What We Service</a></li>
+      <li><a href="/">About</a></li>
+      <li><a href="/">Contact</a></li>
+      <li><a href="/">Reviews</a></li>
     </ul>
   </div>
 </nav>

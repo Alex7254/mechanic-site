@@ -2,7 +2,7 @@
   export let serviceIcon = "/assets/brakes.svg";
   export let serviceTitle = "Service Title";
   export let serviceSummary =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptatum, harum tempora quaerat iusto perspiciatis commodi accusamus similique. Quod nemo repudiandae repellendus earum veniam quaerat dolorum laboriosam accusamus? Et iusto veritatis necessitatibus id unde rerum voluptatibus perspiciatis quia explicabo quis, enim magni ad cum ipsam!";
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptatum, harum tempora quaerat iusto perspiciatis commodi accusamus similique. Quod nemo repudiandae repellendus earum veniam quaerat dolorum laboriosam accusamus?";
 </script>
 
 <div class="service">

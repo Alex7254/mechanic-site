@@ -4,12 +4,12 @@
 <nav class="nav" role="navigation">
   <div class="menuToggle">
     <input type="checkbox" />
-
+    <!-- aria-label=”Open the menu” -->
     <span />
     <span />
     <span />
 
-    <ul class="menu blue-gradient">
+    <ul class="menu blue-gradient" aria-hidden=”true”>
       <li><a href="/">Home</a></li>
       <li><a href="/">Services</a></li>
       <li><a href="/">What We Service</a></li>

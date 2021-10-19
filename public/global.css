@@ -121,3 +121,243 @@ hr {
   transform: skewX(20deg);
   display: block;
 }
+/* MEDIA QUERIES */
+/* Extra large devices less than 1550px) */
+@media only screen and (max-width: 1440px) {
+}
+/* Large devices less than 992px */
+@media only screen and (max-width: 84.063rem) {
+  .section-padding {
+    padding: 10.5rem 6.7rem;
+  }
+  .section-title {
+    font-size: 1.75rem;
+  }
+  /* Subtitle */
+  .subtitle,
+  .work-experience__card-title {
+    font-size: 1.35rem;
+  }
+  /* Hero */
+  .hero {
+    height: 42.8rem;
+  }
+  .hero__header {
+    font-size: 2rem;
+  }
+  /* Technical Skills */
+  .technical-skills__container {
+    height: auto;
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .technical-skills__card {
+    height: 20.5rem;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .technical-skills__card-text {
+    text-align: left;
+    width: 25rem;
+    /* font-size: 1.2rem; */
+    margin-left: 2.6rem;
+  }
+  .first-card {
+    align-self: auto;
+  }
+  .middle-card {
+    margin: 1rem 0;
+  }
+  .last-card {
+    align-self: auto;
+  }
+}
+/* Extra small devices (phones, 500px and down) */
+@media only screen and (max-width: 58.75rem) {
+  /* Section Padding */
+  .section-padding {
+    padding: 7.5rem;
+  }
+  .section-padding {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    padding-right: 3.7rem;
+    padding-left: 3.7rem;
+  }
+  /* Nav */
+  .nav__items {
+    width: 24rem;
+  }
+  .nav__item {
+    font-size: 0.8rem;
+  }
+  /* Hero */
+  .hero {
+    height: 32.8rem;
+  }
+  .hero__header {
+    font-size: 1.78rem;
+    line-height: 2rem;
+  }
+  /* Projects */
+  .project {
+    height: 27rem;
+    width: 56rem;
+  }
+  .project__img {
+    width: 24rem;
+  }
+  .project__body {
+    width: 36.5rem;
+  }
+  /* Work Experience */
+  .work-experience__img {
+    display: none;
+  }
+  .work-experience__date {
+    margin-left: 0;
+  }
+  .social {
+    margin: 0 2rem;
+  }
+}
+
+/* Medium devices (landscape tablets, below 350px) */
+@media only screen and (max-width: 33.125rem) {
+  .section-padding {
+    padding: 5.5rem 1.7rem;
+  }
+  .section-padding.header {
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+  }
+  .section-padding.projects {
+    padding-right: 1.7rem;
+  }
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .logo {
+    height: 3.2rem;
+    width: 3.2rem;
+    margin-bottom: 2rem;
+    margin-right: 0;
+  }
+  .nav__items {
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 23.7rem;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 30rem;
+    text-align: center;
+  }
+  .hero__left-side {
+    color: var(--light-blue);
+    width: 90%;
+  }
+  .hero__header {
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    margin-right: 0;
+  }
+  .hero__img,
+  .work-experience__img {
+    display: none;
+  }
+  /* Projects */
+  .title-and-arrows {
+    margin-right: 0;
+  }
+  .project-navigation {
+    display: none;
+  }
+  .projects__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+  }
+  .project {
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .project .btn {
+    margin-top: 1.5rem;
+  }
+  .project__img {
+    height: 16.6rem;
+    width: auto;
+    border-top-left-radius: 0.7rem;
+    border-bottom-left-radius: 0;
+  }
+  .project__body {
+    padding: 2.6rem;
+    width: auto;
+    background-color: #fff;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  /* Work Experience */
+  .work-experience__card-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .work-experience__date {
+    margin-top: 1rem;
+  }
+  .work-experience__cards {
+    width: 100%;
+    padding: 1rem 0.85rem;
+  }
+  /* Technical Skills */
+  .technical-skills__card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 27.5rem;
+  }
+  .technical-skills__card-text {
+    text-align: center;
+    width: auto;
+    margin-left: 0;
+  }
+  .social {
+    margin: 0;
+  }
+  .contact {
+    margin-top: 2.5rem;
+  }
+}

@@ -7,7 +7,7 @@
     <!-- White diagonal container -->
     <div class="hero__white-bg" />
     <div class="hero__content">
-      <h1 class="hero__header red-header">Easy Tune Up Mechanic Shop</h1>
+      <h1 class="hero__header red-header">Welcome To Easy Tune Up Mechanic Shop!</h1>
       <p class="hero__text light-text">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores ad
         ratione repudiandae, dolorem officia sunt voluptatibus optio adipisci

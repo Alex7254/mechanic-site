@@ -28,6 +28,7 @@
   .footer__nav__item {
     color: white;
     margin: 0.65rem;
+    text-decoration: none;
     transition: color 0.4s ease-in-out;
   }
   .footer__nav__item:hover {

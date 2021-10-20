@@ -7,9 +7,7 @@
     <!-- White diagonal container -->
     <div class="hero__white-bg" />
     <div class="hero__content">
-      <h1 class="hero__header red-header">
-        Easy Tune Up Mechanic Shop!
-      </h1>
+      <h1 class="hero__header red-header">Easy Tune Up Mechanic Shop!</h1>
       <p class="hero__text light-text">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores ad
         ratione repudiandae, dolorem officia sunt voluptatibus optio adipisci
@@ -91,7 +89,9 @@
       font-size: 0.85rem;
     }
   }
-
+  /* Extra large devices less than 1550px) */
+  @media only screen and (max-width: 90rem) {
+  }
   /* Large devices less than 992px */
   @media only screen and (max-width: 84.063rem) {
   }

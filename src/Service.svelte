@@ -71,4 +71,9 @@
     color: white;
     opacity: 0.7;
   }
+
+   /* Extra large devices less than 1440px) */
+   @media only screen and (max-width: 90rem) {
+    
+  }
 </style>

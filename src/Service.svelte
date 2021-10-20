@@ -22,11 +22,15 @@
     background-color: #034391;
     border-radius: 5px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
     cursor: default;
     transition: all 0.3s ease-in-out;
+    height: 14.5rem;
+    width: 48%;
   }
 
   .service:hover {
@@ -39,8 +43,8 @@
   .icon-container {
     display: block;
     margin: auto;
-    height: 10rem;
-    padding: 2rem;
+    min-width: 10rem;
+    padding: 0 2.2rem;
   }
 
   img {
@@ -48,11 +52,9 @@
   }
 
   .service-summary {
-    height: 100%;
-    margin: auto;
+    padding: 100% 5%;
     color: white;
     background-color: #033675;
-    padding: 2rem;
   }
 
   h1 {
@@ -63,17 +65,13 @@
 
   p {
     font-size: 0.8rem;
-    width: 75%;
-    /* background-color: red; */
-    height: 75%;
-    padding: 0.9rem 0;
+    margin-top: 0.9rem;
     overflow: hidden;
     color: white;
     opacity: 0.7;
   }
 
-   /* Extra large devices less than 1440px) */
-   @media only screen and (max-width: 90rem) {
-    
+  /* Extra large devices less than 1440px) */
+  @media only screen and (max-width: 90rem) {
   }
 </style>

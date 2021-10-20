@@ -89,7 +89,7 @@
       font-size: 0.85rem;
     }
   }
-  /* Extra large devices less than 1550px) */
+  /* Extra large devices less than 1440px) */
   @media only screen and (max-width: 90rem) {
   }
   /* Large devices less than 992px */

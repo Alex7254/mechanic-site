@@ -31,7 +31,7 @@
 
 <style>
   .about-us {
-    padding: 6rem 12rem;
+    padding: 6rem 8%;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
@@ -45,7 +45,7 @@
   }
 
   .about-us__img {
-    height: 24rem;
+    height: 28rem;
     border-radius: 10px;
     object-fit: cover;
   }
@@ -62,6 +62,6 @@
   .about-us__content__text {
     line-height: 1.5rem;
     letter-spacing: 0.5px;
-    margin: 2rem 0 5rem 0;
+    margin: 2rem 2rem 5rem 0;
   }
 </style>

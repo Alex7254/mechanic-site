@@ -81,16 +81,14 @@
     z-index: -2;
   }
 
-  @media only screen and (max-width: 104.375rem) {
+  /* Extra large devices less than 1440px) */
+  @media only screen and (max-width: 90rem) {
     .hero__header {
-      font-size: 2.4rem;
+      font-size: 2.5rem;
     }
     .hero__text {
       font-size: 0.85rem;
     }
-  }
-  /* Extra large devices less than 1440px) */
-  @media only screen and (max-width: 90rem) {
   }
   /* Large devices less than 992px */
   @media only screen and (max-width: 84.063rem) {

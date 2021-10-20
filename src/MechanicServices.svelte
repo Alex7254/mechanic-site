@@ -21,14 +21,16 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 2rem 8%;
   }
   .services__grid {
-    /* background-color: silver; */
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 12rem;
-    padding: 2rem 8%;
-    grid-gap: 3rem;
+    max-width: 100rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 36rem;
   }
 
   /* Add with to button to fit content on this section of website */
@@ -39,6 +41,8 @@
 
   /* Extra large devices less than 1440px) */
   @media only screen and (max-width: 90rem) {
-    
+    .services {
+      flex-wrap: wrap;
+    }
   }
 </style>

@@ -34,6 +34,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: default;
   }
 
   .hero__white-bg {

@@ -58,6 +58,10 @@
   .hero__header {
     font-size: 3rem;
     font-weight: 900;
+    transition: all 0.3s ease-in-out;
+  }
+  .hero__header:hover {
+    text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
   }
 
   .hero__text {
@@ -75,12 +79,19 @@
     height: 100vh;
     position: absolute;
     right: 0;
-    z-index: -2
+    z-index: -2;
   }
 
   @media only screen and (max-width: 104.375rem) {
     .hero__header {
-      color: green;
+      font-size: 2.4rem;
     }
+    .hero__text {
+      font-size: 0.85rem;
+    }
+  }
+
+  /* Large devices less than 992px */
+  @media only screen and (max-width: 84.063rem) {
   }
 </style>

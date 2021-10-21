@@ -41,7 +41,7 @@
   .about-us__content {
     color: white;
     padding: 0 1rem;
-    width: 35vw;
+    width: 40vw;
   }
 
   .about-us__img {

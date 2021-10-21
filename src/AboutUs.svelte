@@ -2,7 +2,7 @@
 </script>
 
 <section class="about-us blue-gradient">
-  <div class="max-width d-flex-nw">
+  <div class="about-us__mw d-flex-nw">
     <div class="about-us__content">
       <h1 class="about-us__content__title">About Us</h1>
       <p class="about-us__content__text">
@@ -32,7 +32,7 @@
 </section>
 
 <style>
-  .max-width {
+  .about-us__mw {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;

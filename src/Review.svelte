@@ -15,10 +15,10 @@
 </script>
 
 <div class="review blue-gradient">
-  <StarRating {rating} {style} {isIndicatorActive} />
   <p>
     {reviewParagraph}
   </p>
+  <StarRating {rating} {style} {isIndicatorActive} />
   <h3>{reviewerName}</h3>
 </div>
 
@@ -27,7 +27,7 @@
     cursor: default;
     height: 24rem;
     width: 22rem;
-    padding: 2rem;
+    padding: 2rem 4rem;
     border-radius: 0.4rem;
     color: white;
     text-align: center;

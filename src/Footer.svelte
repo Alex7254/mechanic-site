@@ -2,28 +2,36 @@
 </script>
 
 <footer class="footer blue-gradient">
-  <ul class="footer__nav">
-    <li class="footer__nav__item">
-      <a href="/">Home</a>
-    </li>
-    <li class="footer__nav__item">
-      <a href="/">Services</a>
-    </li>
-    <li class="footer__nav__item">
-      <a href="/">About</a>
-    </li>
-    <li class="footer__nav__item">
-      <a href="/">Contact</a>
-    </li>
-    <li class="footer__nav__item designer-tag">
-      <p class="light-text">Designed by Alejandro Garcia</p>
-    </li>
-  </ul>
+  <div class="footer__mw">
+    <ul class="footer__nav">
+      <li>
+        <a href="/" class="footer__nav__item">Home</a>
+      </li>
+      <li>
+        <a href="/" class="footer__nav__item">Services</a>
+      </li>
+      <li>
+        <a href="/" class="footer__nav__item">About</a>
+      </li>
+      <li>
+        <a href="/" class="footer__nav__item">Contact</a>
+      </li>
+      <li class="footer__nav__item designer-tag">
+        Designed by Alejandro Garcia
+      </li>
+    </ul>
+  </div>
 </footer>
 
 <style>
   .footer {
+    color: #fff;
+  }
+  .footer__mw {
+    /* padding: 1rem 8%; */
     padding: 3rem 6%;
+    max-width: 120rem;
+    margin: auto;
   }
   .footer__nav__item {
     color: white;

@@ -40,6 +40,8 @@
     justify-content: space-evenly;
     flex-direction: row;
     padding: 1rem 8%;
+    max-width: 120rem;
+    margin: auto;
   }
   .contact-us__details {
     height: 25rem;

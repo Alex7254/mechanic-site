@@ -45,7 +45,7 @@
   }
 
   .about-us__img {
-    height: 28rem;
+    height: 26rem;
     border-radius: 10px;
     object-fit: cover;
   }

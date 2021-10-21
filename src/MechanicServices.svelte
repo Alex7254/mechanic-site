@@ -22,9 +22,10 @@
     justify-content: center;
     flex-direction: column;
     padding: 2rem 8%;
+    max-width: 120rem;
+    margin: auto;
   }
   .services__grid {
-    max-width: 100rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

@@ -16,7 +16,7 @@
       <li>
         <a href="/" class="footer__nav__item">Contact</a>
       </li>
-      <li class="footer__nav__item designer-tag">
+      <li class="designer-tag">
         Designed by Alejandro Garcia
       </li>
     </ul>
@@ -26,6 +26,7 @@
 <style>
   .footer {
     color: #fff;
+    font-size: 0.9rem;
   }
   .footer__mw {
     /* padding: 1rem 8%; */
@@ -35,7 +36,7 @@
   }
   .footer__nav__item {
     color: white;
-    margin: 0.65rem;
+    margin: 2rem 0;
     text-decoration: none;
     transition: color 0.4s ease-in-out;
   }
@@ -45,5 +46,6 @@
   .designer-tag {
     margin-top: 2rem;
     cursor: default;
+    opacity: 0.6;
   }
 </style>

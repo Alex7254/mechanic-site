@@ -51,9 +51,9 @@
     flex-wrap: nowrap;
     flex-direction: column;
     color: white;
-    padding: 2rem 4rem;
+    padding: 2rem 5rem;
     border-radius: 10px 0 0 10px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     letter-spacing: 1.3px;
   }
 </style>

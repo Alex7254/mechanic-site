@@ -30,7 +30,7 @@
   }
   .footer__mw {
     /* padding: 1rem 8%; */
-    padding: 3rem 6%;
+    padding: 3rem 8%;
     max-width: 120rem;
     margin: auto;
   }

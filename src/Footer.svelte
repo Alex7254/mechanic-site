@@ -16,9 +16,7 @@
       <li>
         <a href="/" class="footer__nav__item">Contact</a>
       </li>
-      <li class="designer-tag">
-        Designed by Alejandro Garcia
-      </li>
+      <li class="designer-tag">Designed by Alejandro Garcia</li>
     </ul>
   </div>
 </footer>

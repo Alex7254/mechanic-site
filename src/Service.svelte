@@ -1,7 +1,7 @@
 <script>
   export let serviceIcon = "/assets/brakes.svg";
   export let serviceTitle = "Service Title";
-  export let serviceSummary =
+  export let serviceText =
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptatum, harum tempora quaerat iusto perspiciatis commodi accusamus similique. Quod nemo repudiandae repellendus earum veniam quaerat dolorum laboriosam accusamus?";
 </script>
 
@@ -12,7 +12,7 @@
   <div class="service__body">
     <h1 class="service__title">{serviceTitle}</h1>
     <p class="service__text">
-      {serviceSummary}
+      {serviceText}
     </p>
   </div>
 </div>

@@ -9,7 +9,7 @@
   <div class="service__icon-container">
     <img class="service__icon " src={serviceIcon} alt="" />
   </div>
-  <div class="service__summary">
+  <div class="service__body">
     <h1>{serviceTitle}</h1>
     <p>
       {serviceSummary}
@@ -51,7 +51,7 @@
     height: 100%;
   }
 
-  .service__summary {
+  .service__body {
     padding: 100% 5%;
     color: white;
     background-color: #033675;

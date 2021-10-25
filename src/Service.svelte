@@ -6,8 +6,8 @@
 </script>
 
 <div class="service">
-  <div class="icon-container">
-    <img src={serviceIcon} alt="" />
+  <div class="service__icon-container">
+    <img class="service__icon " src={serviceIcon} alt="" />
   </div>
   <div class="service-summary">
     <h1>{serviceTitle}</h1>
@@ -40,14 +40,14 @@
     transform: scale(1.012);
   }
 
-  .icon-container {
+  .service__icon-container {
     display: block;
     margin: auto;
     min-width: 10rem;
     padding: 0 2.2rem;
   }
 
-  img {
+  .service__icon {
     height: 100%;
   }
 

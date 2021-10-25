@@ -82,7 +82,7 @@
   }
 
   /* Extra large devices less than 1440px) */
-  @media only screen and (max-width: 90rem) {
+  @media screen and (max-width: 1440px) {
     .hero__header {
       font-size: 2.5rem;
     }

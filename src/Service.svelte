@@ -10,8 +10,8 @@
     <img class="service__icon " src={serviceIcon} alt="" />
   </div>
   <div class="service__body">
-    <h1>{serviceTitle}</h1>
-    <p>
+    <h1 class="service__title">{serviceTitle}</h1>
+    <p class="service__text">
       {serviceSummary}
     </p>
   </div>
@@ -57,13 +57,13 @@
     background-color: #033675;
   }
 
-  h1 {
+  .service__title {
     font-size: 1.6rem;
     font-weight: 700;
     letter-spacing: 1.5px;
   }
 
-  p {
+  .service__text {
     font-size: 0.8rem;
     margin-top: 0.9rem;
     overflow: hidden;

@@ -24,6 +24,7 @@
     /* padding: 2rem 8%; */
     /* background-color: blanchedalmond; */
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;

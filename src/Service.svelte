@@ -26,7 +26,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    /* overflow: hidden; */
+    overflow: hidden;
     cursor: default;
     transition: all 0.3s ease-in-out;
     height: 14.5rem;

@@ -52,7 +52,7 @@
   }
 
   .service__body {
-    padding: 1.5rem 5%;
+    padding: 2.5rem 5%;
     height: 100%;
     color: white;
     background-color: #033675;

@@ -8,7 +8,7 @@
   <div class="services__grid">
     <Service serviceTitle="CEL Diagnosis" serviceIcon="/assets/engine.svg" />
     <Service serviceTitle="Smog Check" serviceIcon="assets/exhaust.svg" />
-    <Service serviceTitle="Brake Repairs" serviceIcone="assets/brakes.svg" />
+    <Service serviceTitle="Brake Repairs" serviceIcon="assets/brakes.svg" />
     <Service serviceTitle="Oil Change" serviceIcon="assets/oil.svg" />
   </div>
   <div class="diagonal-button">

@@ -26,7 +26,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    /* overflow: hidden; */
     cursor: default;
     transition: all 0.3s ease-in-out;
     height: 14.5rem;
@@ -52,7 +52,8 @@
   }
 
   .service__body {
-    padding: 100% 5%;
+    padding: 1.5rem 5%;
+    height: 100%;
     color: white;
     background-color: #033675;
   }

@@ -73,5 +73,12 @@
 
   /* Extra large devices less than 1440px) */
   @media only screen and (max-width: 90rem) {
+    .service__title {
+      font-size: 1.3rem;
+    }
+
+    .service__text {
+      font-size: 0.8rem;
+    }
   }
 </style>

@@ -8,11 +8,11 @@
   <PistonHeader title="Contact Us" />
   <div class="contact-us__container d-flex-nw">
     <div class="contact-us__details blue-gradient">
-      <p>
+      <p class="contact__phone">
         <b>Phone:</b>
         (831)012-3456
       </p>
-      <div class="contact-us__details__hours">
+      <div class="contact__hours">
         <p>
           <b>Monday-Friday:</b>
           9:30am-5:00pm
@@ -22,12 +22,10 @@
           9:30am-3:00pm
         </p>
       </div>
-      <p>
-        <b>
-          123 Union St
-          <br />
-          Watsonville, CA 95076
-        </b>
+      <p class="contact__address">
+        123 W. Union St
+        <br />
+        Watsonville, CA 95076
       </p>
     </div>
     <Map />

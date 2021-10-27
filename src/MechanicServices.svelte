@@ -23,6 +23,7 @@
     flex-direction: column;
     padding: 2rem 8%;
     max-width: 120rem;
+    height: auto;
     margin: auto;
   }
   .services__grid {

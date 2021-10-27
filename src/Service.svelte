@@ -1,7 +1,8 @@
 <script>
   export let serviceIcon = "/assets/brakes.svg";
   export let serviceTitle = "Service Title";
-  export let serviceText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptatum, harum tempora quaerat iusto perspiciatis commodi accusamus similique. Quod nemo repudiandae repellendus earum veniam quaerat dolorum laboriosam accusamus?";
+  export let serviceText =
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptatum, harum tempora quaerat iusto perspiciatis commodi accusamus similique. Quod nemo repudiandae repellendus earum veniam quaerat dolorum laboriosam accusamus?";
 </script>
 
 <div class="service">
@@ -40,7 +41,6 @@
   }
 
   .service__icon-container {
-    display: block;
     margin: auto;
     min-width: 10rem;
     height: 100%;
@@ -78,9 +78,11 @@
     .service__title {
       font-size: 1.3rem;
     }
-
     .service__text {
-      font-size: 0.8rem;
+      font-size: 0.76rem;
+    }
+    .service__icon {
+      height: 5rem;
     }
   }
 </style>

@@ -57,15 +57,9 @@
 
   /* Extra large devices less than 1440px) */
   @media only screen and (max-width: 90rem) {
-    /* .about-us__content__title {
-      font-size: 1.8rem;
+    .contact-us__details {
+      font-size: 1.15rem;
+      padding: 1rem 5%;
     }
-    .about-us__content__text {
-      line-height: 1.2rem;
-    }
-    .about-us__img {
-      height: 22rem;
-      width: 30rem;
-    } */
   }
 </style>

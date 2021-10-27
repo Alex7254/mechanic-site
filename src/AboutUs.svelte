@@ -12,9 +12,7 @@
         aliquam culpa sequi neque quam vero vitae officiis dolorum facilis.
         Tempore dolore id fuga pariatur praesentium labore perspiciatis,
         deserunt obcaecati deleniti beatae itaque assumenda sunt voluptates,
-        doloribus modi impedit
-        <br />
-        dolorum. Pariatur aperiam, quae nostrum enim corrupti perspiciatis maiores
+        doloribus modi impedit dolorum. Pariatur aperiam, quae nostrum enim corrupti perspiciatis maiores
         sit amet, harum expedita quas voluptates possimus perferendis! Ratione deleniti
         ipsa minima pariatur porro distinctio nisi, laudantium corporis laboriosam
         inventore quibusdam, rem quis dolorum repellat nobis a quam qui temporibus.

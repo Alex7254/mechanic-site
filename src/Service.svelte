@@ -18,7 +18,6 @@
 
 <style>
   .service {
-    background-color: #034391;
     border-radius: 5px;
     display: flex;
     flex-wrap: nowrap;
@@ -30,6 +29,7 @@
     transition: all 0.3s ease-in-out;
     height: 14.5rem;
     width: 48%;
+    background-color: #033675;
   }
 
   .service:hover {
@@ -43,18 +43,22 @@
     display: block;
     margin: auto;
     min-width: 10rem;
-    padding: 0 2.2rem;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    /* padding: 0 2.2rem; */
+    background-color: #034391;
   }
 
   .service__icon {
-    height: 100%;
+    height: 6rem;
+    margin: auto;
   }
 
   .service__body {
     padding: 2.5rem 5%;
     height: 100%;
     color: white;
-    background-color: #033675;
   }
 
   .service__title {

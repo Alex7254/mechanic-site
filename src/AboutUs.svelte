@@ -12,11 +12,12 @@
         aliquam culpa sequi neque quam vero vitae officiis dolorum facilis.
         Tempore dolore id fuga pariatur praesentium labore perspiciatis,
         deserunt obcaecati deleniti beatae itaque assumenda sunt voluptates,
-        doloribus modi impedit dolorum. Pariatur aperiam, quae nostrum enim corrupti perspiciatis maiores
-        sit amet, harum expedita quas voluptates possimus perferendis! Ratione deleniti
-        ipsa minima pariatur porro distinctio nisi, laudantium corporis laboriosam
-        inventore quibusdam, rem quis dolorum repellat nobis a quam qui temporibus.
-        Reiciendis, deleniti rerum.
+        doloribus modi impedit dolorum. Pariatur aperiam, quae nostrum enim
+        corrupti perspiciatis maiores sit amet, harum expedita quas voluptates
+        possimus perferendis! Ratione deleniti ipsa minima pariatur porro
+        distinctio nisi, laudantium corporis laboriosam inventore quibusdam, rem
+        quis dolorum repellat nobis a quam qui temporibus. Reiciendis, deleniti
+        rerum.
       </p>
       <div class="diagonal-button">
         <span class="button-slanted-content">Contact Us</span>
@@ -38,6 +39,7 @@
     max-width: 120rem;
     margin: auto;
     padding: 6rem 8%;
+    position: relative;
   }
   .about-us {
     cursor: default;
@@ -81,6 +83,39 @@
     .about-us__img {
       height: 22rem;
       width: 30rem;
+    }
+  }
+
+  @media only screen and (max-width: 71.25rem) {
+    .about-us {
+      background: url(https://images.unsplash.com/photo-1543747255-94b72995ac74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)
+        no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    .about-us__content {
+      color: white;
+      margin-right: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 3rem;
+      backdrop-filter: blur(5px);
+      border-radius: 0.4rem;
+    }
+    .about-us__content__title {
+      font-size: 1.8rem;
+      z-index: 1;
+      position: relative;
+    }
+    .about-us__content__text {
+      font-size: 0.9rem;
+      z-index: 1;
+      position: relative;
+    }
+    .about-us__img {
+      display: none;
     }
   }
 </style>

@@ -8,10 +8,11 @@
       <p class="about-us__content__text">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo sit non
         corporis optio quod possimus numquam voluptatem earum molestiae
-        accusantium excepturi totam, aut incidunt veniam itaque distinctio aliquam
-        culpa sequi neque quam vero vitae officiis dolorum facilis. Tempore dolore
-        id fuga pariatur praesentium labore perspiciatis, deserunt obcaecati
-        deleniti beatae itaque assumenda sunt voluptates, doloribus modi impedit
+        accusantium excepturi totam, aut incidunt veniam itaque distinctio
+        aliquam culpa sequi neque quam vero vitae officiis dolorum facilis.
+        Tempore dolore id fuga pariatur praesentium labore perspiciatis,
+        deserunt obcaecati deleniti beatae itaque assumenda sunt voluptates,
+        doloribus modi impedit
         <br />
         dolorum. Pariatur aperiam, quae nostrum enim corrupti perspiciatis maiores
         sit amet, harum expedita quas voluptates possimus perferendis! Ratione deleniti
@@ -69,5 +70,19 @@
     line-height: 1.5rem;
     letter-spacing: 0.5px;
     margin: 2rem 2rem 5rem 0;
+  }
+
+  /* Extra large devices less than 1440px) */
+  @media only screen and (max-width: 90rem) {
+    .about-us__content__title {
+      font-size: 1.8rem;
+    }
+    .about-us__content__text {
+      line-height: 1.2rem;
+    }
+    .about-us__img {
+      height: 22rem;
+      width: 30rem;
+    }
   }
 </style>

@@ -52,7 +52,7 @@
 
   .service__icon {
     height: 6rem;
-    margin: auto;
+    /* margin: auto; */
   }
 
   .service__body {

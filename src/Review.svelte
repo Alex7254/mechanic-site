@@ -15,11 +15,11 @@
 </script>
 
 <div class="review blue-gradient">
-  <p>
+  <p class="review__text">
     {reviewParagraph}
   </p>
   <StarRating {rating} {style} {isIndicatorActive} />
-  <h3>{reviewerName}</h3>
+  <h3 class="review__title">{reviewerName}</h3>
 </div>
 
 <style>

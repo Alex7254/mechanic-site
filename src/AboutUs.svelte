@@ -67,7 +67,7 @@
   }
 
   .about-us__content__text {
-    line-height: 1.5rem;
+    line-height: 1.6rem;
     letter-spacing: 0.5px;
     margin: 2rem 2rem 5rem 0;
   }
@@ -78,7 +78,7 @@
       font-size: 1.8rem;
     }
     .about-us__content__text {
-      line-height: 1.2rem;
+      font-size: 0.9rem;
     }
     .about-us__img {
       height: 22rem;

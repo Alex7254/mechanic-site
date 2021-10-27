@@ -37,18 +37,39 @@
     justify-content: space-evenly;
     transition: all 0.3s ease-in-out;
   }
+
   h3 {
     letter-spacing: 1.5px;
   }
+
   p {
     font-weight: 200;
     font-size: 0.8rem;
     letter-spacing: 0.7px;
   }
+
   .review:hover {
     box-shadow: 0.625rem 0.625rem 0px 0px rgba(239, 35, 60, 1);
     -webkit-box-shadow: 0.625rem 0.625rem 0px 0px rgba(239, 35, 60, 1);
     -moz-box-shadow: 0.625rem 0.625rem 0px 0px rgba(239, 35, 60, 1);
     transform: scale(1.012);
+  }
+
+  /* Extra large devices less than 1440px) */
+  @media only screen and (max-width: 90rem) {
+    .review {
+      cursor: default;
+      height: 24rem;
+      width: 22rem;
+      padding: 2rem 4rem;
+      border-radius: 0.4rem;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      transition: all 0.3s ease-in-out;
+    }
   }
 </style>

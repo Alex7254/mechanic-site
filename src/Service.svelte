@@ -28,8 +28,8 @@
     overflow: hidden;
     cursor: default;
     transition: all 0.3s ease-in-out;
-    height: 14.5rem;
-    width: 48%;
+    height: 16rem;
+    width: 49%;
     background-color: #033675;
   }
 

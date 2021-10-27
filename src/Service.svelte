@@ -46,13 +46,11 @@
     height: 100%;
     display: grid;
     place-items: center;
-    /* padding: 0 2.2rem; */
     background-color: #034391;
   }
 
   .service__icon {
     height: 6rem;
-    /* margin: auto; */
   }
 
   .service__body {

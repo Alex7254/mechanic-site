@@ -28,6 +28,7 @@
     height: 24rem;
     width: 22rem;
     padding: 2rem 4rem;
+    margin: 2rem 0.9rem;
     border-radius: 0.4rem;
     color: white;
     text-align: center;
@@ -58,18 +59,7 @@
   /* Extra large devices less than 1440px) */
   @media only screen and (max-width: 90rem) {
     .review {
-      cursor: default;
-      height: 24rem;
-      width: 22rem;
-      padding: 2rem 4rem;
-      border-radius: 0.4rem;
-      color: white;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-evenly;
-      transition: all 0.3s ease-in-out;
+      width: 20rem;
     }
   }
 </style>

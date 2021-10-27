@@ -35,8 +35,8 @@
   }
 
   .cars-serviced__logo {
-    width: 8rem;
-    height: 8rem;
+    width: 6rem;
+    height: 6rem;
     margin: 1.25rem;
     display: inline-block;
     filter: grayscale(100%);

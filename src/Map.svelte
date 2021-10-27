@@ -18,7 +18,7 @@
 
 <style>
   .map {
-    width: 50%;
+    width: 60%;
     height: 25rem;
     border-radius: 0 0.625rem 0.625rem 0;
   }

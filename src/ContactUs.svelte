@@ -44,7 +44,7 @@
     margin: auto;
   }
   .contact-us__details {
-    height: 25rem;
+    height: 30rem;
     width: 40%;
     display: flex;
     justify-content: space-evenly;

@@ -59,7 +59,7 @@
 
   /* Extra large devices less than 1440px) */
   @media only screen and (max-width: 90rem) {
-    .about-us__content__title {
+    /* .about-us__content__title {
       font-size: 1.8rem;
     }
     .about-us__content__text {
@@ -68,6 +68,6 @@
     .about-us__img {
       height: 22rem;
       width: 30rem;
-    }
+    } */
   }
 </style>

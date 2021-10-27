@@ -56,4 +56,18 @@
     font-size: 1.3rem;
     letter-spacing: 1.3px;
   }
+
+  /* Extra large devices less than 1440px) */
+  @media only screen and (max-width: 90rem) {
+    .about-us__content__title {
+      font-size: 1.8rem;
+    }
+    .about-us__content__text {
+      line-height: 1.2rem;
+    }
+    .about-us__img {
+      height: 22rem;
+      width: 30rem;
+    }
+  }
 </style>

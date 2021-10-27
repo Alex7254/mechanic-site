@@ -29,12 +29,4 @@
     align-items: center;
     justify-content: space-evenly;
   }
-
-  /* Extra large devices less than 1440px) */
-  @media only screen and (max-width: 90rem) {
-    /* .contact-us__details {
-      font-size: 1.15rem;
-      padding: 1rem 5%;
-    } */
-  }
 </style>

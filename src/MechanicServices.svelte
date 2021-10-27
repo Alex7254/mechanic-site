@@ -41,9 +41,9 @@
   }
 
   /* Extra large devices less than 1440px) */
-  @media only screen and (max-width: 90rem) {
+  /* @media only screen and (max-width: 90rem) {
     .services {
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
     }
-  }
+  } */
 </style>

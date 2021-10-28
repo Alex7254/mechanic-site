@@ -8,10 +8,6 @@
   <PistonHeader title="Contact Us" />
   <div class="contact-us__container d-flex-nw">
     <div class="contact-us__details blue-gradient">
-      <p class="contact__phone">
-        <b>Phone:</b>
-        (831)012-3456
-      </p>
       <div class="contact__hours">
         <p>
           <b>Monday-Friday:</b>
@@ -22,6 +18,10 @@
           9:30am-3:00pm
         </p>
       </div>
+      <p class="contact__phone">
+        <b>Phone:</b>
+        (831)012-3456
+      </p>
       <p class="contact__address">
         123 W. Union St
         <br />

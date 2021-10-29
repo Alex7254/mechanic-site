@@ -90,7 +90,10 @@
       font-size: 0.85rem;
     }
   }
-  /* Large devices less than 992px */
-  @media only screen and (max-width: 84.063rem) {
+  /* Large devices less than 1120px */
+  @media only screen and (max-width: 70rem) {
+    /* .hero__header {
+      background-color: peru;
+    } */
   }
 </style>

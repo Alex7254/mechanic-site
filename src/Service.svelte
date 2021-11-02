@@ -22,8 +22,9 @@
     border-radius: 5px;
     display: flex;
     flex-wrap: nowrap;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: flex-start;
     justify-content: center;
     overflow: hidden;
     cursor: default;
@@ -31,6 +32,7 @@
     height: 16rem;
     width: 49%;
     background-color: #033675;
+    position: relative;
   }
 
   .service:hover {
@@ -41,21 +43,17 @@
   }
 
   .service__icon-container {
-    margin: auto;
-    min-width: 10rem;
-    height: 100%;
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-bottom: 1rem;
     display: grid;
     place-items: center;
-    background-color: #034391;
   }
 
   .service__icon {
-    height: 6rem;
   }
 
   .service__body {
-    padding: 2.5rem 5%;
-    height: 100%;
     color: white;
   }
 
@@ -67,15 +65,14 @@
 
   .service__text {
     font-size: 0.8rem;
-    margin-top: 0.9rem;
     overflow: hidden;
     color: white;
-    opacity: 0.7;
+    opacity: 0.65;
   }
 
   /* Extra large devices less than 1440px) */
   @media only screen and (max-width: 90rem) {
-    .service__title {
+    /* .service__title {
       font-size: 1.3rem;
     }
     .service__text {
@@ -83,6 +80,6 @@
     }
     .service__icon {
       height: 5rem;
-    }
+    } */
   }
 </style>

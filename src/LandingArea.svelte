@@ -88,7 +88,7 @@
       font-size: 0.85rem;
     }
   }
-  /* Large devices less than 1120px */
+  /* Large devices less than 1061px */
   @media only screen and (max-width: 66.313rem) {
     .hero {
       height: 100vh;

@@ -15,7 +15,7 @@
         pariatur quibusdam ab quidem molestias nihil quo commodi provident vel
         temporibus. Ex quia est placeat quasi deleniti. In.
       </p>
-      <a class="diagonal-button" href="#contact-us">
+      <a class="diagonal-button hero__button" href="#contact-us">
         <span class="button-slanted-content">Contact Us</span></a
       >
     </div>
@@ -37,9 +37,6 @@
 
   .hero__white-bg {
     position: absolute;
-    /* top: 0;
-    bottom: 0;
-    right: 0; */
     left: 0;
     width: 55vw;
     height: 100%;
@@ -81,6 +78,7 @@
     z-index: -2;
   }
 
+  /* MEDIA QUERIES */
   /* Extra large devices less than 1440px) */
   @media screen and (max-width: 1440px) {
     .hero__header {
@@ -91,9 +89,40 @@
     }
   }
   /* Large devices less than 1120px */
-  @media only screen and (max-width: 70rem) {
-    /* .hero__header {
-      background-color: peru;
-    } */
+  @media only screen and (max-width: 66.313rem) {
+    .hero {
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: default;
+    }
+    .hero__header {
+      font-size: 2.8rem;
+      line-height: 1.2;
+    }
+    .hero__white-bg {
+      position: absolute;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(255, 255, 255, 0.527);
+      backdrop-filter: blur(5px);
+      transform: skewX(0deg);
+    }
+    .hero__content {
+      position: relative;
+      text-align: center;
+      width: 100vw;
+      padding: 2.3rem;
+    }
+    .hero__text {
+      color: #fff;
+    }
+    .hero__button {
+      margin: 0 auto;
+    }
   }
 </style>

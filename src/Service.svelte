@@ -2,7 +2,7 @@
   export let serviceIcon = "/assets/brakes.svg";
   export let serviceTitle = "Service Title";
   export let serviceText =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptatum, harum tempora quaerat iusto perspiciatis commodi accusamus similique. Quod nemo repudiandae repellendus earum veniam quaerat dolorum laboriosam accusamus?";
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptatum, harum tempora quaerat iusto perspiciatis commodi accusamus similique.";
 </script>
 
 <div class="service">
@@ -50,9 +50,6 @@
     place-items: center;
   }
 
-  .service__icon {
-  }
-
   .service__body {
     color: white;
   }
@@ -70,16 +67,19 @@
     opacity: 0.65;
   }
 
-  /* Extra large devices less than 1440px) */
-  @media only screen and (max-width: 90rem) {
-    /* .service__title {
+  /* Extra large devices less than 1060px) */
+  @media only screen and (max-width: 66.313rem) {
+    .service__icon-container {
+      width: 2.5rem;
+      height: 2.5rem;
+      margin-bottom: 1rem;
+      display: grid;
+      place-items: center;
+    }
+    .service__title {
       font-size: 1.3rem;
+      font-weight: 700;
+      letter-spacing: 1.5px;
     }
-    .service__text {
-      font-size: 0.76rem;
-    }
-    .service__icon {
-      height: 5rem;
-    } */
   }
 </style>

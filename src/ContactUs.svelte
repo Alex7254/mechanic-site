@@ -7,7 +7,7 @@
 <section class="contact-us" id="contact-us">
   <PistonHeader title="Contact Us" />
   <div class="contact-us__container d-flex-nw">
-    <div class="contact-us__details blue-gradient">
+    <div class="contact-us__details">
       <div class="contact__hours">
         <p>
           <b>Monday-Friday:</b>
@@ -35,24 +35,33 @@
 <style>
   .contact-us {
     align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
+    flex-direction: column;
     padding: 1rem 8%;
     max-width: 120rem;
     margin: auto;
+    position: relative;
+  }
+  .contact-us__container {
+    position: relative;
+    justify-content: space-between;
   }
   .contact-us__details {
+    position: absolute;
+    text-align: center;
     height: 30rem;
-    width: 40%;
+    z-index: 1;
+    width: 45%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: nowrap;
     flex-direction: column;
-    color: white;
+    color: #fff;
     padding: 2rem 5rem;
-    border-radius: 10px 0 0 10px;
+    border-radius: 0.625rem 0 0 0.625rem;
     font-size: 1.3rem;
     letter-spacing: 1.3px;
+    background-color: rgba(3, 54, 117, 0.603);
+    backdrop-filter: blur(5px);
   }
 
   /* Extra large devices less than 1440px) */

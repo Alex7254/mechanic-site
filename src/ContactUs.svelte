@@ -64,11 +64,18 @@
     backdrop-filter: blur(5px);
   }
 
+  /* MEDIA QUERIES */
   /* Extra large devices less than 1440px) */
   @media only screen and (max-width: 90rem) {
     .contact-us__details {
       font-size: 1.15rem;
       padding: 1rem 5%;
+    }
+  }
+  /* Medium devices less than 1440px) */
+  @media only screen and (max-width: 40.625rem) {
+    .contact-us__container {
+      flex-direction: column;
     }
   }
 </style>

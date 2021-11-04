@@ -38,7 +38,7 @@
   .hero__white-bg {
     position: absolute;
     left: 0;
-    width: 55vw;
+    width: 55%;
     height: 100%;
     background-color: white;
     transform: skewX(-6deg);
@@ -91,7 +91,7 @@
   /* Large devices less than 1061px */
   @media only screen and (max-width: 66.313rem) {
     .hero {
-      height: 100vh;
+      height: 56.25rem;
       width: 100%;
       overflow: hidden;
       display: flex;
@@ -108,15 +108,18 @@
       left: 0;
       width: 100vw;
       height: 100vh;
-      background-color: rgba(255, 255, 255, 0.527);
+      background-color: rgba(255, 255, 255, 0.774);
       backdrop-filter: blur(5px);
       transform: skewX(0deg);
+    }
+    .main-bg-img {
+      height: 56.25rem;
     }
     .hero__content {
       position: relative;
       text-align: center;
       width: 100vw;
-      padding: 2.3rem;
+      padding: 0 5.5rem;
     }
     .hero__text {
       color: #fff;

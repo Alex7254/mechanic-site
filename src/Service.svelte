@@ -90,5 +90,8 @@
       flex-shrink: 0;
       margin-right: 2rem;
     }
+    .service:last-child {
+      margin-right: 0;
+    }
   }
 </style>

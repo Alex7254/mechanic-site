@@ -41,10 +41,21 @@
     margin: 4rem 0;
   }
 
-  /* Extra large devices less than 1440px) */
-  /* @media only screen and (max-width: 90rem) {
+  /* Extra large devices less than 650px) */
+  @media only screen and (max-width: 40.625rem) {
     .services {
+      flex: 1;
+  }
+    .services__grid {
       flex-wrap: nowrap;
+      justify-content: flex-start;
+      height: auto;
+      width: 100%;
+      overflow-x: auto;
+      padding: 1rem 0;
     }
-  } */
+    .diagonal-button {
+      display: none;
+    }
+  }
 </style>

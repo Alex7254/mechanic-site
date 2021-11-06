@@ -82,4 +82,13 @@
       letter-spacing: 1.5px;
     }
   }
+  /* Medium devices less than 650px) */
+  @media only screen and (max-width: 40.625rem) {
+    .service {
+      height: 20rem;
+      width: 20rem;
+      flex-shrink: 0;
+      margin-right: 2rem;
+    }
+  }
 </style>

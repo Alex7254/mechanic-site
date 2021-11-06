@@ -14,10 +14,7 @@
         deserunt obcaecati deleniti beatae itaque assumenda sunt voluptates,
         doloribus modi impedit dolorum. Pariatur aperiam, quae nostrum enim
         corrupti perspiciatis maiores sit amet, harum expedita quas voluptates
-        possimus perferendis! Ratione deleniti ipsa minima pariatur porro
-        distinctio nisi, laudantium corporis laboriosam inventore quibusdam, rem
-        quis dolorum repellat nobis a quam qui temporibus. Reiciendis, deleniti
-        rerum.
+        possimus perferendis!
       </p>
       <div class="diagonal-button">
         <span class="button-slanted-content">Contact Us</span>

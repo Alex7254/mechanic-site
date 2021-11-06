@@ -49,7 +49,6 @@
     position: absolute;
     text-align: center;
     height: 30rem;
-    z-index: 1;
     width: 45%;
     display: flex;
     justify-content: space-evenly;
@@ -72,10 +71,16 @@
       padding: 1rem 5%;
     }
   }
-  /* Medium devices less than 1440px) */
+  /* Medium devices less than 650px) */
   @media only screen and (max-width: 40.625rem) {
     .contact-us__container {
       flex-direction: column;
+    }
+    .contact-us__details {
+      position: static;
+      height: 20rem;
+      width: 100%;
+      border-radius: 0.625rem 0.625rem 0 0;
     }
   }
 </style>

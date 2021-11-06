@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<section class="d-flex-nw">
+<section class="hero-container d-flex-nw">
   <!-- Holds diagonal conainer and text -->
   <div class="hero">
     <!-- White diagonal container -->
@@ -25,6 +25,8 @@
 </section>
 
 <style>
+  .hero-container {
+  }
   .hero {
     height: 100vh;
     width: 55%;
@@ -91,7 +93,6 @@
   /* Large devices less than 1061px */
   @media only screen and (max-width: 66.313rem) {
     .hero {
-      height: 56.25rem;
       width: 100%;
       overflow: hidden;
       display: flex;
@@ -106,14 +107,14 @@
     .hero__white-bg {
       position: absolute;
       left: 0;
-      width: 100vw;
-      height: 100vh;
-      background-color: rgba(255, 255, 255, 0.774);
+      width: 100%;
+      height: 100%;
+      background-color: rgba(8, 49, 99, 0.288);
       backdrop-filter: blur(5px);
       transform: skewX(0deg);
     }
     .main-bg-img {
-      height: 56.25rem;
+      height: 100%;
     }
     .hero__content {
       position: relative;

@@ -26,9 +26,9 @@
 
 <style>
   .hero-container {
+    height: 100vh;
   }
   .hero {
-    height: 100vh;
     width: 55%;
     overflow: hidden;
     display: flex;
@@ -73,8 +73,8 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     position: absolute;
     right: 0;
     z-index: -2;
@@ -92,6 +92,9 @@
   }
   /* Large devices less than 1061px */
   @media only screen and (max-width: 66.313rem) {
+    .hero-container {
+      height: 50rem;
+    }
     .hero {
       width: 100%;
       overflow: hidden;
@@ -108,13 +111,13 @@
       position: absolute;
       left: 0;
       width: 100%;
-      height: 100%;
+      height: 50rem;
       background-color: rgba(8, 49, 99, 0.288);
       backdrop-filter: blur(5px);
       transform: skewX(0deg);
     }
     .main-bg-img {
-      height: 100%;
+      height: 50rem;
     }
     .hero__content {
       position: relative;

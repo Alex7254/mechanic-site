@@ -22,6 +22,7 @@
     width: 100%;
     height: 30rem;
     border-radius: 0.625rem;
+    z-index: -1;
   }
   /* Medium devices less than 650px */
   @media only screen and (max-width: 40.625rem) {

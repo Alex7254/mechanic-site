@@ -21,7 +21,14 @@
   .map {
     width: 100%;
     height: 30rem;
-    /* height: 25rem; */
     border-radius: 0.625rem;
+  }
+  /* Medium devices less than 650px */
+  @media only screen and (max-width: 40.625rem) {
+    .map {
+      border-radius: 0 0 0.625rem 0.625rem;
+      height: 20rem;
+      border: solid 1px var(--red) solid 1px var(--red);
+    }
   }
 </style>

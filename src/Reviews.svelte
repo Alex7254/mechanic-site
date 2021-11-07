@@ -7,8 +7,10 @@
   <PistonHeader title="Reviews" />
   <div class="reviews-container">
     <Review reviewerName="Alex Garcia" rating="4.2" />
-    <Review rating="3.5" />
+    <Review rating="3.5" reviewerName="Sooz Garcia" />
     <Review rating="4.8" />
+    <Review rating="4.8" />
+    <Review rating="4.4" />
   </div>
 </div>
 
@@ -20,13 +22,10 @@
   }
 
   .reviews-container {
-    /* height: 25rem; */
-    /* padding: 2rem 8%; */
-    /* background-color: blanchedalmond; */
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    overflow-x: scroll;
   }
 </style>

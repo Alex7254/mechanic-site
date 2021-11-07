@@ -28,7 +28,7 @@
     height: 24rem;
     width: 22rem;
     padding: 2rem 4rem;
-    margin: 2rem 0.9rem;
+    margin: 2rem 0.9rem 2rem 1rem;
     border-radius: 0.4rem;
     color: white;
     text-align: center;
@@ -37,6 +37,10 @@
     align-items: center;
     justify-content: space-evenly;
     transition: all 0.3s ease-in-out;
+    flex-shrink: 0;
+  }
+  .review:last-child {
+    margin-right: 0;
   }
 
   h3 {
@@ -56,10 +60,4 @@
     transform: scale(1.012);
   }
 
-  /* Extra large devices less than 1440px) */
-  @media only screen and (max-width: 90rem) {
-    .review {
-      width: 20rem;
-    }
-  }
 </style>

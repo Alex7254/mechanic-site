@@ -45,7 +45,7 @@
   @media only screen and (max-width: 40.625rem) {
     .services {
       flex: 1;
-  }
+    }
     .services__grid {
       flex-wrap: nowrap;
       justify-content: flex-start;

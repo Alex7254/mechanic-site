@@ -3,7 +3,7 @@
   import Service from "./Service.svelte";
 </script>
 
-<section class="cars-serviced">
+<section class="cars-serviced" id="cars">
   <PistonHeader title="Brands We Service" />
   <div class="cars-serviced__gallery">
     <img

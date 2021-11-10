@@ -28,7 +28,7 @@
     height: 24rem;
     width: 22rem;
     padding: 2rem 4rem;
-    margin: 2rem 0.9rem 2rem 1rem;
+    margin-right: 2rem;
     border-radius: 0.4rem;
     color: white;
     text-align: center;
@@ -38,9 +38,6 @@
     justify-content: space-evenly;
     transition: all 0.3s ease-in-out;
     flex-shrink: 0;
-  }
-  .review:last-child {
-    margin-right: 0;
   }
 
   h3 {

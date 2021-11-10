@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<section class="hero-container d-flex-nw">
+<section class="hero-container d-flex-nw" id="hero">
   <!-- Holds diagonal conainer and text -->
   <div class="hero">
     <!-- White diagonal container -->

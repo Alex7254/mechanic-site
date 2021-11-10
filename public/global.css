@@ -145,18 +145,7 @@ hr {
 }
 /* MEDIA QUERIES */
 
-/* Extra large devices less than 1550px) */
-/* @media only screen and (max-width: 1440px) {
-} */
-
-/* Large devices less than 992px */
-/* @media only screen and (max-width: 84.063rem) {
-} */
-
-/* Extra small devices (phones, 500px and down) */
-/* @media only screen and (max-width: 58.75rem) {
-} */
-
-/* Medium devices (landscape tablets, below 350px) */
-/* @media only screen and (max-width: 33.125rem) {
-} */
+  /* Large devices less than 1061px */
+  @media only screen and (max-width: 66.313rem) {
+    
+  }

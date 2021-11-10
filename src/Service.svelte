@@ -70,8 +70,8 @@
   /* Extra large devices less than 1060px) */
   @media only screen and (max-width: 66.313rem) {
     .service__icon-container {
-      width: 2.5rem;
-      height: 2.5rem;
+      width: 3rem;
+      height: 3rem;
       margin-bottom: 1rem;
       display: grid;
       place-items: center;
@@ -84,6 +84,11 @@
   }
   /* Medium devices less than 650px) */
   @media only screen and (max-width: 40.625rem) {
+    .service__icon-container {
+      width: 3.5rem;
+      height: 3.5rem;
+      margin-bottom: 1rem;
+    }
     .service {
       height: 20rem;
       width: 20rem;

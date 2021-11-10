@@ -10,7 +10,7 @@
     <span />
 
     <ul class="menu blue-gradient" aria-hidden=”true”>
-      <li><a href="/">Home</a></li>
+      <li><a href="#hero">Home</a></li>
       <li><a href="/">Services</a></li>
       <li><a href="/">What We Service</a></li>
       <li><a href="/">About</a></li>

@@ -3,7 +3,7 @@
   import Service from "./Service.svelte";
 </script>
 
-<section class="services d-flex-nw">
+<section class="services d-flex-nw" id="services">
   <PistonHeader title="How We Can Help" />
   <div class="services__grid">
     <Service serviceTitle="CEL Diagnosis" serviceIcon="/assets/engine.svg" />

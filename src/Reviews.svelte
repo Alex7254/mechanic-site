@@ -3,7 +3,7 @@
   import Review from "./Review.svelte";
 </script>
 
-<div class="reviews">
+<div class="reviews" id="reviews">
   <PistonHeader title="Reviews" />
   <div class="reviews-container">
     <Review reviewerName="Alex Garcia" rating="4.2" />

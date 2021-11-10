@@ -67,7 +67,7 @@
     margin-top: 2rem;
   }
   .main-bg-img {
-    background: url(https://images.unsplash.com/photo-1570129476815-ba368ac77013?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
+    background: url(/assets/img-2.jpg)
       no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;

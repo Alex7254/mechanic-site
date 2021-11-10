@@ -27,5 +27,6 @@
     flex-direction: row;
     align-items: center;
     overflow-x: scroll;
+    padding: 1rem 0;
   }
 </style>

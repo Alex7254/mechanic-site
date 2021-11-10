@@ -11,11 +11,11 @@
 
     <ul class="menu blue-gradient" aria-hidden=”true”>
       <li><a href="#hero">Home</a></li>
-      <li><a href="/">Services</a></li>
-      <li><a href="/">What We Service</a></li>
-      <li><a href="/">About</a></li>
-      <li><a href="/">Contact</a></li>
-      <li><a href="/">Reviews</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#cars">What We Service</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#reviews">Reviews</a></li>
     </ul>
   </div>
 </nav>

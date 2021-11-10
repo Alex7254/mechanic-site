@@ -16,9 +16,9 @@
         corrupti perspiciatis maiores sit amet, harum expedita quas voluptates
         possimus perferendis!
       </p>
-      <div class="diagonal-button">
-        <span class="button-slanted-content">Contact Us</span>
-      </div>
+      <a class="diagonal-button hero__button" href="#reviews">
+        <span class="button-slanted-content">Reviews</span></a
+      >
     </div>
     <img
       class="about-us__img"

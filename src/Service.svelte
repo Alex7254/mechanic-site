@@ -43,8 +43,8 @@
   }
 
   .service__icon-container {
-    width: 3.2rem;
-    height: 3.2rem;
+    width: 3.85rem;
+    height: 3.85rem;
     margin-bottom: 1rem;
     display: grid;
     place-items: center;

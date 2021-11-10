@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<section class="about-us blue-gradient">
+<section class="about-us blue-gradient" id="about">
   <div class="about-us__mw d-flex-nw">
     <div class="about-us__content">
       <h1 class="about-us__content__title">About Us</h1>

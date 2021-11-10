@@ -4,18 +4,12 @@
 <footer class="footer blue-gradient">
   <div class="footer__mw">
     <ul class="footer__nav">
-      <li>
-        <a href="/" class="footer__nav__item">Home</a>
-      </li>
-      <li>
-        <a href="/" class="footer__nav__item">Services</a>
-      </li>
-      <li>
-        <a href="/" class="footer__nav__item">About</a>
-      </li>
-      <li>
-        <a href="/" class="footer__nav__item">Contact</a>
-      </li>
+      <li><a href="#hero" class="footer__nav__item">Home</a></li>
+      <li><a href="#services" class="footer__nav__item">Services</a></li>
+      <li><a href="#cars" class="footer__nav__item">What We Service</a></li>
+      <li><a href="#about" class="footer__nav__item">About</a></li>
+      <li><a href="#contact-us" class="footer__nav__item">Contact</a></li>
+      <li><a href="#reviews" class="footer__nav__item">Reviews</a></li>
       <li class="designer-tag">Designed by Alejandro Garcia</li>
     </ul>
   </div>

@@ -102,7 +102,6 @@
       border-radius: 0.4rem;
     }
     .about-us__content__title {
-      font-size: 1.8rem;
       z-index: 1;
       position: relative;
     }

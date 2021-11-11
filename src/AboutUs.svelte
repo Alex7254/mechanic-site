@@ -1,4 +1,5 @@
 <script>
+  export let aboutImg = "/assets/img-1.jpg";
 </script>
 
 <section class="about-us blue-gradient" id="about">
@@ -22,7 +23,7 @@
     </div>
     <img
       class="about-us__img"
-      src="/assets/img-1.jpg"
+      src={aboutImg}
       alt="mechanic bending over to look under car"
     />
   </div>

@@ -370,26 +370,26 @@ var app = (function () {
     			span.textContent = "Contact Us";
     			t6 = space();
     			div3 = element("div");
-    			attr_dev(div0, "class", "hero__white-bg svelte-1t31fb5");
-    			add_location(div0, file, 7, 4, 187);
-    			attr_dev(h1, "class", "hero__header red-header svelte-1t31fb5");
-    			add_location(h1, file, 9, 6, 258);
-    			attr_dev(p, "class", "hero__text light-text svelte-1t31fb5");
-    			add_location(p, file, 10, 6, 334);
+    			attr_dev(div0, "class", "hero__white-bg svelte-swza28");
+    			add_location(div0, file, 8, 4, 233);
+    			attr_dev(h1, "class", "hero__header red-header svelte-swza28");
+    			add_location(h1, file, 10, 6, 304);
+    			attr_dev(p, "class", "hero__text light-text svelte-swza28");
+    			add_location(p, file, 11, 6, 380);
     			attr_dev(span, "class", "button-slanted-content");
-    			add_location(span, file, 18, 8, 836);
-    			attr_dev(a, "class", "diagonal-button hero__button svelte-1t31fb5");
+    			add_location(span, file, 19, 8, 882);
+    			attr_dev(a, "class", "diagonal-button hero__button svelte-swza28");
     			attr_dev(a, "href", "#contact-us");
-    			add_location(a, file, 17, 6, 767);
-    			attr_dev(div1, "class", "hero__content svelte-1t31fb5");
-    			add_location(div1, file, 8, 4, 223);
-    			attr_dev(div2, "class", "hero svelte-1t31fb5");
-    			add_location(div2, file, 5, 2, 124);
-    			attr_dev(div3, "class", "main-bg-img svelte-1t31fb5");
-    			add_location(div3, file, 23, 2, 964);
-    			attr_dev(section, "class", "hero-container d-flex-nw svelte-1t31fb5");
+    			add_location(a, file, 18, 6, 813);
+    			attr_dev(div1, "class", "hero__content svelte-swza28");
+    			add_location(div1, file, 9, 4, 269);
+    			attr_dev(div2, "class", "hero svelte-swza28");
+    			add_location(div2, file, 6, 2, 170);
+    			attr_dev(div3, "class", "main-bg-img svelte-swza28");
+    			add_location(div3, file, 24, 2, 1010);
+    			attr_dev(section, "class", "hero-container d-flex-nw svelte-swza28");
     			attr_dev(section, "id", "hero");
-    			add_location(section, file, 3, 0, 23);
+    			add_location(section, file, 4, 0, 69);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -428,10 +428,33 @@ var app = (function () {
     	return block;
     }
 
+    function instance($$self, $$props, $$invalidate) {
+    	let { aboutImg = "/assets/img-1.jpg" } = $$props;
+    	const writable_props = ["aboutImg"];
+
+    	Object.keys($$props).forEach(key => {
+    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<LandingArea> was created with unknown prop '${key}'`);
+    	});
+
+    	$$self.$set = $$props => {
+    		if ("aboutImg" in $$props) $$invalidate(0, aboutImg = $$props.aboutImg);
+    	};
+
+    	$$self.$capture_state = () => {
+    		return { aboutImg };
+    	};
+
+    	$$self.$inject_state = $$props => {
+    		if ("aboutImg" in $$props) $$invalidate(0, aboutImg = $$props.aboutImg);
+    	};
+
+    	return [aboutImg];
+    }
+
     class LandingArea extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, null, create_fragment, safe_not_equal, {});
+    		init(this, options, instance, create_fragment, safe_not_equal, { aboutImg: 0 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
@@ -439,6 +462,14 @@ var app = (function () {
     			options,
     			id: create_fragment.name
     		});
+    	}
+
+    	get aboutImg() {
+    		throw new Error("<LandingArea>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set aboutImg(value) {
+    		throw new Error("<LandingArea>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
     }
 
@@ -490,7 +521,7 @@ var app = (function () {
     	return block;
     }
 
-    function instance($$self, $$props, $$invalidate) {
+    function instance$1($$self, $$props, $$invalidate) {
     	let { title = "Header Title" } = $$props;
     	const writable_props = ["title"];
 
@@ -516,7 +547,7 @@ var app = (function () {
     class PistonHeader extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance, create_fragment$1, safe_not_equal, { title: 0 });
+    		init(this, options, instance$1, create_fragment$1, safe_not_equal, { title: 0 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
@@ -620,7 +651,7 @@ var app = (function () {
     	return block;
     }
 
-    function instance$1($$self, $$props, $$invalidate) {
+    function instance$2($$self, $$props, $$invalidate) {
     	let { serviceIcon = "/assets/brakes.svg" } = $$props;
     	let { serviceTitle = "Service Title" } = $$props;
     	let { serviceText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptatum, harum tempora quaerat iusto perspiciatis commodi accusamus similique." } = $$props;
@@ -653,7 +684,7 @@ var app = (function () {
     	constructor(options) {
     		super(options);
 
-    		init(this, options, instance$1, create_fragment$2, safe_not_equal, {
+    		init(this, options, instance$2, create_fragment$2, safe_not_equal, {
     			serviceIcon: 0,
     			serviceTitle: 1,
     			serviceText: 2
@@ -1019,25 +1050,25 @@ var app = (function () {
     			t5 = space();
     			img = element("img");
     			attr_dev(h1, "class", "about-us__content__title svelte-vh6jv6");
-    			add_location(h1, file$5, 6, 6, 159);
+    			add_location(h1, file$5, 7, 6, 205);
     			attr_dev(p, "class", "about-us__content__text svelte-vh6jv6");
-    			add_location(p, file$5, 7, 6, 217);
+    			add_location(p, file$5, 8, 6, 263);
     			attr_dev(span, "class", "button-slanted-content");
-    			add_location(span, file$5, 19, 8, 984);
+    			add_location(span, file$5, 20, 8, 1030);
     			attr_dev(a, "class", "diagonal-button hero__button");
     			attr_dev(a, "href", "#reviews");
-    			add_location(a, file$5, 18, 6, 918);
+    			add_location(a, file$5, 19, 6, 964);
     			attr_dev(div0, "class", "about-us__content svelte-vh6jv6");
-    			add_location(div0, file$5, 5, 4, 120);
+    			add_location(div0, file$5, 6, 4, 166);
     			attr_dev(img, "class", "about-us__img svelte-vh6jv6");
-    			if (img.src !== (img_src_value = "/assets/img-1.jpg")) attr_dev(img, "src", img_src_value);
+    			if (img.src !== (img_src_value = /*aboutImg*/ ctx[0])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "mechanic bending over to look under car");
-    			add_location(img, file$5, 22, 4, 1065);
+    			add_location(img, file$5, 23, 4, 1111);
     			attr_dev(div1, "class", "about-us__mw d-flex-nw svelte-vh6jv6");
-    			add_location(div1, file$5, 4, 2, 78);
+    			add_location(div1, file$5, 5, 2, 124);
     			attr_dev(section, "class", "about-us blue-gradient svelte-vh6jv6");
     			attr_dev(section, "id", "about");
-    			add_location(section, file$5, 3, 0, 23);
+    			add_location(section, file$5, 4, 0, 69);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1055,7 +1086,11 @@ var app = (function () {
     			append_dev(div1, t5);
     			append_dev(div1, img);
     		},
-    		p: noop,
+    		p: function update(ctx, [dirty]) {
+    			if (dirty & /*aboutImg*/ 1 && img.src !== (img_src_value = /*aboutImg*/ ctx[0])) {
+    				attr_dev(img, "src", img_src_value);
+    			}
+    		},
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
@@ -1074,10 +1109,33 @@ var app = (function () {
     	return block;
     }
 
+    function instance$3($$self, $$props, $$invalidate) {
+    	let { aboutImg = "/assets/img-1.jpg" } = $$props;
+    	const writable_props = ["aboutImg"];
+
+    	Object.keys($$props).forEach(key => {
+    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<AboutUs> was created with unknown prop '${key}'`);
+    	});
+
+    	$$self.$set = $$props => {
+    		if ("aboutImg" in $$props) $$invalidate(0, aboutImg = $$props.aboutImg);
+    	};
+
+    	$$self.$capture_state = () => {
+    		return { aboutImg };
+    	};
+
+    	$$self.$inject_state = $$props => {
+    		if ("aboutImg" in $$props) $$invalidate(0, aboutImg = $$props.aboutImg);
+    	};
+
+    	return [aboutImg];
+    }
+
     class AboutUs extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, null, create_fragment$5, safe_not_equal, {});
+    		init(this, options, instance$3, create_fragment$5, safe_not_equal, { aboutImg: 0 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
@@ -1085,6 +1143,14 @@ var app = (function () {
     			options,
     			id: create_fragment$5.name
     		});
+    	}
+
+    	get aboutImg() {
+    		throw new Error("<AboutUs>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set aboutImg(value) {
+    		throw new Error("<AboutUs>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
     }
 
@@ -1127,7 +1193,7 @@ var app = (function () {
     	return block;
     }
 
-    function instance$2($$self, $$props, $$invalidate) {
+    function instance$4($$self, $$props, $$invalidate) {
     	let container;
     	let map;
     	let zoom = 14;
@@ -1166,7 +1232,7 @@ var app = (function () {
     class Map$1 extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$2, create_fragment$6, safe_not_equal, {});
+    		init(this, options, instance$4, create_fragment$6, safe_not_equal, {});
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
@@ -1634,7 +1700,7 @@ var app = (function () {
     	return starFullnessPercent;
     }
 
-    function instance$3($$self, $$props, $$invalidate) {
+    function instance$5($$self, $$props, $$invalidate) {
     	let { rating = 0 } = $$props;
     	let { isIndicatorActive = true } = $$props;
 
@@ -1734,7 +1800,7 @@ var app = (function () {
     	constructor(options) {
     		super(options);
 
-    		init(this, options, instance$3, create_fragment$8, safe_not_equal, {
+    		init(this, options, instance$5, create_fragment$8, safe_not_equal, {
     			rating: 0,
     			isIndicatorActive: 1,
     			style: 2
@@ -1859,7 +1925,7 @@ var app = (function () {
     	return block;
     }
 
-    function instance$4($$self, $$props, $$invalidate) {
+    function instance$6($$self, $$props, $$invalidate) {
     	let { reviewerName = "Persons Name" } = $$props;
     	let { reviewParagraph = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio veniamquasi iure doloremque enim dolore maxime omnis labore voluptate,reiciendis nesciunt! Labore itaque quod atque ipsam possimus dicta nihilpariatur. At odio vel accusamus accusantium?" } = $$props;
     	let { rating = "3.5" } = $$props;
@@ -1908,7 +1974,7 @@ var app = (function () {
     	constructor(options) {
     		super(options);
 
-    		init(this, options, instance$4, create_fragment$9, safe_not_equal, {
+    		init(this, options, instance$6, create_fragment$9, safe_not_equal, {
     			reviewerName: 0,
     			reviewParagraph: 1,
     			rating: 2
@@ -2637,7 +2703,7 @@ var app = (function () {
     	return block;
     }
 
-    function instance$5($$self, $$props, $$invalidate) {
+    function instance$7($$self, $$props, $$invalidate) {
     	let { ready } = $$props;
     	const writable_props = ["ready"];
 
@@ -2663,7 +2729,7 @@ var app = (function () {
     class App extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$5, create_fragment$d, safe_not_equal, { ready: 0 });
+    		init(this, options, instance$7, create_fragment$d, safe_not_equal, { ready: 0 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,

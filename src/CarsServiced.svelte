@@ -2,6 +2,10 @@
   import PistonHeader from "./PistonHeader.svelte";
   export let carLogos = {
     honda: "/assets/honda.png",
+    ford: "/assets/ford.png",
+    nissan: "/assets/nissan.png",
+    dodge: "/assets/dodge.png",
+    subaru: "/assets/subaru.png",
   };
 </script>
 
@@ -14,10 +18,10 @@
       alt=""
     />
     <img class="cars-serviced__logo" src={carLogos.honda} alt="Honda logo" />
-    <img class="cars-serviced__logo" src="/assets/ford.png" alt="" />
-    <img class="cars-serviced__logo" src="/assets/nissan.png" alt="" />
-    <img class="cars-serviced__logo" src="/assets/dodge.png" alt="" />
-    <img class="cars-serviced__logo" src="/assets/subaru.png" alt="" />
+    <img class="cars-serviced__logo" src={carLogos.ford} alt="Ford logo" />
+    <img class="cars-serviced__logo" src={carLogos.nissan} alt="Nissan logo" />
+    <img class="cars-serviced__logo" src={carLogos.dodge} alt="Dodge logo" />
+    <img class="cars-serviced__logo" src={carLogos.subaru} alt="Subaru logo" />
   </div>
 </section>
 

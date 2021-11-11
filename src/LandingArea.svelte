@@ -1,5 +1,4 @@
 <script>
-  export let heroImg = "/assets/img-2.jpg";
 </script>
 
 <section class="hero-container d-flex-nw" id="hero">

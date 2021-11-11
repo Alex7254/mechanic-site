@@ -1,6 +1,8 @@
 <script>
   import PistonHeader from "./PistonHeader.svelte";
-  import Service from "./Service.svelte";
+  export let carLogos = {
+    honda: "/assets/honda.png",
+  };
 </script>
 
 <section class="cars-serviced" id="cars">
@@ -11,7 +13,7 @@
       src="/assets/volkswagen.png"
       alt=""
     />
-    <img class="cars-serviced__logo" src="/assets/honda.png" alt="" />
+    <img class="cars-serviced__logo" src={carLogos.honda} alt="Honda logo" />
     <img class="cars-serviced__logo" src="/assets/ford.png" alt="" />
     <img class="cars-serviced__logo" src="/assets/nissan.png" alt="" />
     <img class="cars-serviced__logo" src="/assets/dodge.png" alt="" />

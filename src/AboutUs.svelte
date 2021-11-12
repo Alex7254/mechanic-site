@@ -1,5 +1,5 @@
 <script>
-  export let aboutImg = "/assets/img-1.jpg";
+  export let aboutImg = "./assets/img-1.jpg";
 </script>
 
 <section class="about-us blue-gradient" id="about">

@@ -6,7 +6,7 @@
 <section class="services d-flex-nw" id="services">
   <PistonHeader title="How We Can Help" />
   <div class="services__grid">
-    <Service serviceTitle="CEL Diagnosis" serviceIcon="/assets/engine.svg" />
+    <Service serviceTitle="CEL Diagnosis" serviceIcon="assets/engine.svg" />
     <Service serviceTitle="Smog Check" serviceIcon="assets/exhaust.svg" />
     <Service serviceTitle="Brake Repairs" serviceIcon="assets/brakes.svg" />
     <Service serviceTitle="Oil Change" serviceIcon="assets/oil.svg" />

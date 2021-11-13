@@ -6,7 +6,7 @@
   .piston-header {
     text-align: center;
     padding: 1.2rem;
-    background: url(/assets/pistons.svg) no-repeat center center;
+    background: url("../assets/pistons.svg") no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
